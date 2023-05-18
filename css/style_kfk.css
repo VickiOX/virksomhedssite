@@ -1,0 +1,30 @@
+/*til mobil herunder*/
+
+body {
+    background-color: green;
+}
+
+/*til web herunder*/
+
+@media (min-width: 800px){
+   
+    body {
+        background-color: pink;
+    }
+
+    main {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .grid_1-2 {
+        margin-top: 25px;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 1em;
+        padding: 0.7em 1.7em;
+        border-radius: 0.5em;
+        box-shadow: 5px 5px 10px #121110,
+        -5px -5px 10px #3a3732;
+    }
+}
