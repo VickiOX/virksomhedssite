@@ -9,7 +9,7 @@ body {
 @media (min-width: 800px){
    
     body {
-        background-color: pink;
+            background-color: whitesmoke;
     }
 
     header {
@@ -33,6 +33,7 @@ body {
     main {
         max-width: 1200px;
         margin: auto;
+        background-color: #54514D;
     }
 
     .grid_1-2 {
@@ -55,5 +56,17 @@ body {
         border-radius: 0.5em;
         box-shadow: 5px 5px 10px #121110,
         -5px -5px 10px #3a3732;
+    }
+
+    h1 {
+        color: #FF8D29;
+    }
+
+    h2 {
+        color:rgb(198, 198, 222);
+    }
+
+    p {
+        color:rgb(198, 198, 222);
     }
 }
