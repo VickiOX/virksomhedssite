@@ -1,12 +1,24 @@
 /* General */
-main{
-    background-color: lightgrey;
+body{
+    margin: 0;
+    background-color: #f5f5f5;
+}
+header{
+    background-color: #f5f5f5;
+}
+
+footer{
+    background-color: #f5f5f5;
 }
 
 .icon{
     width: 50%;
 }
 
+.arrow{
+    margin-top: 20px;
+    width: 13%;
+}
 
 /*snap*/
 
@@ -21,23 +33,23 @@ section{
 }
 
 .one{
-    background-color: #ffb574 ;
+    background-image: linear-gradient(#f5f5f5, #ffd9b8, #ffb574);
 }
 
 .two{
-    background-color: #72dc87;
+    background-image: linear-gradient(#f5f5f5, #72dc87) ;
 }
 
 .three{
-    background-color: #abe2ff;
+    background-image: linear-gradient(#f5f5f5, #5aacd6);
 }
 
 .four{
-    background-color: #8b8783;
+    background-image: linear-gradient(#f5f5f5, #8b8783 );
 }
 
 .five{
-    background-color: #ffb574;
+    background-image: linear-gradient(#f5f5f5, #ffb574, #f5f5f5);
 }
 
 .container{
@@ -45,3 +57,67 @@ section{
     overflow-y: scroll;
     height: 100vh;
 }
+
+.textbox{
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+
+
+
+/*animationer*/
+
+
+/* webdesign*/
+
+
+@media(min-width:800px){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
