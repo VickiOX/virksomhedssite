@@ -19,6 +19,10 @@ li{
     padding: 0 16px;
 }
 
+body{
+    background-image: linear-gradient(#D9F2FF,#A8ECB5);
+}
+
 @media (min-width:800px){
     .grid_1-1{
         display: grid;
