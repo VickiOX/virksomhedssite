@@ -1,7 +1,11 @@
 /*til mobil herunder*/
 
 body {
-    background-color: green;
+    background-image: linear-gradient(#f5f5f5, #8b8783);
+}
+
+h1 {
+    color: #FF8D29;
 }
 
 /*til web herunder*/
@@ -33,7 +37,7 @@ body {
     main {
         max-width: 1200px;
         margin: auto;
-        background-color: #54514D;
+        background-image: linear-gradient(#f5f5f5, #8b8783 );
     }
 
     .grid_1-2 {
