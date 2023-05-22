@@ -1,5 +1,33 @@
+a {
+    border:1px solid #DCD9D5;
+    background: #DCD9D5;
+    padding: 10px;
+    color: #2E2D2B;
+    text-decoration: none;
+    border-radius:6px;
+    
+}
+
+a:hover {
+    background: #2E2D2B;
+    color: #DCD9D5;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 16px;
+}
+
+body{
+    background-image: linear-gradient(#D9F2FF,#A8ECB5);
+}
+
 @media (min-width:800px){
-    /* web format*/
+    .grid_1-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
     }
 
  
