@@ -1,0 +1,80 @@
+/*mobil site style*/
+header {
+    display: flex;
+    padding: 30px;
+    position: fixed;
+}
+
+body {
+    display: grid;
+    grid-row: auto;
+    background-color: #F5F5F5;
+    background-image: linear-gradient #f5f5f5, #5AACD6;
+}
+
+div {
+    margin: 5%;
+    background-color: #A8ECB5;
+}
+
+img {
+    width: 90%;
+    margin: auto;
+    padding: 5%;
+}
+
+p,
+h2, h3 {
+    text-align: center;
+    margin: 5%;
+    padding-bottom: 5%;
+
+}
+
+/*id*/
+#søren {
+    display: none;
+}
+#anton {
+    display: none;
+}
+#sinus {
+    display: none;
+}
+
+/*classes*/
+.img1 {
+    width: 60%;
+    margin: 20%;
+}
+
+.img2 {
+    width: 15%;
+}
+
+/*web format til layout som grid ect.*/
+@media(min-width:800px) {
+    main {
+        display: grid;
+    }
+
+    
+    header a {
+        justify-content: space-around;
+        text-decoration: none;
+        background-color: rgba(0, 0, 0, 0.483);
+        border-radius: 5px;
+        padding: 1%;
+    }
+    
+    img#søren, img#anton, img#sinus {
+        display: block;
+        width: 40%;
+        padding: 5%;
+    }
+    div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    /*Class*/
+}
