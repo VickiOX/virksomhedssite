@@ -4,21 +4,12 @@ body {
     background-image: linear-gradient(#f5f5f5, #8b8783);
 }
 
+h1, h2, p, li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
     color: #FF8D29;
-}
-
-h2 {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-p {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-li {
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
@@ -58,37 +49,43 @@ img {
         background-image: linear-gradient(#f5f5f5, #8b8783 );
     }
 
-    .grid_1-2 {
+    .grid_1-1 {
         margin-top: 25px;
         display: grid;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 1fr 1fr;
         gap: 1em;
-        padding: 0.7em 1.7em;
-        border-radius: 0.5em;
-        box-shadow: 5px 5px 10px #121110,
-        -5px -5px 10px #3a3732;
     }
 
-    .grid_2-1 {
-        margin-top: 25px;
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        gap: 1em;
-        padding: 0.7em 1.7em;
-        border-radius: 0.5em;
-        box-shadow: 5px 5px 10px #121110,
-        -5px -5px 10px #3a3732;
+    .boks{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    h1, h2, p, li {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+
+    h2 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 20px;
     }
 
     h1 {
         color: #FF8D29;
     }
 
-    h2 {
-        color:rgb(198, 198, 222);
-    }
-
-    p {
-        color:rgb(198, 198, 222);
+    .test {
+        display: block;
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
