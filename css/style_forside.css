@@ -52,7 +52,7 @@ section{
     background-image: linear-gradient(#f5f5f5, #ffb574, #f5f5f5);
 }
 
-.container{
+.mytabs{
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     height: 100vh;
@@ -63,6 +63,7 @@ section{
   margin-left: 30px;
   margin-right: 30px;
 }
+
 
 
 
