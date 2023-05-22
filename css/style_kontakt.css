@@ -3,14 +3,13 @@ header {
     display: flex;
     padding: 30px;
     position: fixed;
-    background-color: #F5F5F5;
 }
 
 body {
     display: grid;
     grid-row: auto;
     background-color: #F5F5F5;
-    background-image: linear-gradient(rgb(30, 29, 29), rgb(0, 0, 0));
+    background-image: linear-gradient #f5f5f5, #5AACD6;
 }
 
 div {
@@ -73,9 +72,9 @@ h2, h3 {
         width: 40%;
         padding: 5%;
     }
-    /*Class*/
-    .grid3 {
+    div {
         display: grid;
-        grid-column: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
+    /*Class*/
 }
