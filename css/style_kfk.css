@@ -88,6 +88,27 @@ img {
         margin-left: auto;
         margin-right: auto;
     }
+
+    .mobil-nav{
+        display: none;
+    }
+
+    .hamburger{
+        display: none;
+    }
+
+    a{
+        display: inline-block;
+        margin: 100px 16px 0 0;
+    }
+
+    #logo{
+        margin: 12px 0 0 10px;
+        height: 11vh;
+        width: 10vh;
+
+    }
+    
 }
 
 
@@ -263,3 +284,13 @@ margin: 0 48px 10px;
     margin: 0 48px 10px;
     }
 
+/*----------------------sticky header-----------*/
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 102px;
+}
