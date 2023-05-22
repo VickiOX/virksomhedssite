@@ -11,19 +11,31 @@
 
 <body>
     <header>
-        <nav>
-            <ul>
-              <li><a href="index.html">Forside</a></li>
-              <li><a href="banen.html">Banen</a></li>
-              <li><a href="kfk.html">KFK</a></li>
-              <li><a href="kontakt.html">Kontakt</a></li>
-            </ul>
-          </nav>
-    </header>
+        <div class="container" id="myHeader"> 
+            <img id="logo" src="../img/logo.png" alt="logo">
 
+            <div class="nav-text"><h1>valbyparken</h1><h2> disc golf</h2></div> 
+
+            <nav>
+                <a href="index.html">forside</a>
+                <a href="banen.html">banen</a>
+                <a href="kfk.html">kfk</a>
+                <a href="kontakt.html">kontakt</a>
+            </nav>
+            <button class="hamburger">
+                <div class="bar"></div>
+            </button>
+        </div>
+    </header>
+    <nav class="mobil-nav"> 
+        <a href="index.html">forside</a>
+        <a href="banen.html">banen</a>
+        <a href="kfk.html">kfk</a>
+        <a href="kontakt.html">kontakt</a>
+    </nav>
     <main>
         <h1>Kontakt information</h1>
-        <div>
+        <div class="box">
             <img class="sørengrid" src="../img/IMG_3898.JPG" alt="">
             <img id="søren" src="../img/IMG_3900.JPG" alt="Protrat billede af Søren Ivø">
             <h2>Søren Ivø</h2>
@@ -33,7 +45,7 @@
                 incidunt ratione?</p>
             <a class="mail" href="si@dgolf.dk">si@dgolf.dk</a>
         </div>
-        <div>
+        <div class="box">
             <img class="antongrid" src="../img/IMG_3907.JPG" alt="">
             <img id="anton" src="../img/IMG_3909.JPG" alt="Protrat billede af Anton Linau">
             <h2>Anton Linau</h2>
@@ -41,7 +53,7 @@
                 ad nemo aut error ratione dolores, obcaecati doloremque repudiandae alias architecto incidunt. Tempore,
                 incidunt ratione?</p>
         </div>
-        <div>
+        <div class="box">
             <img class="sinusgrid" src="../img/IMG_3902.JPG" alt="">
             <img id="sinus" src="../img/IMG_3903.JPG" alt="Protrat billede af Sinus Frank">
             <h2>Sinus Frank</h2>
