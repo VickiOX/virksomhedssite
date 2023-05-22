@@ -1,26 +1,193 @@
-a {
-    border:1px solid #DCD9D5;
-    background: #DCD9D5;
-    padding: 10px;
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.container {
+    display: flex;
+    width:100%;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    border-bottom: 4px solid #2E2D2B;
+   
+}
+
+
+.hamburger{
+    position: relative;
+    display:block;
+    width: 35px;
+    margin: 16px 16px 20px 0;
+    cursor:pointer;
+
+
+    appearance: none;
+    background: none;
+    outline:none;
+    border:none;
+    z-index: 3;
+}
+
+.hamburger .bar, .hamburger:after, .hamburger:before { /* after og before er psheudo elementer der kan lave flere elementer til den det givet element*/
+    content: ''; /* content er none*/
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color:#2e2d2b;
+    margin:6px 0;
+    transition:0.4s;
+}
+
+.hamburger.is-active:before{
+    transform:rotate(-45deg) translate(-8px, 6px);
+}
+
+.hamburger.is-active .bar{
+    opacity: 0;
+}
+
+.hamburger.is-active:after {
+    transform:rotate(45deg) translate(-9px, -8px);
+}
+
+.mobil-nav {
+    display:block;
+    top:0;
+    left:100%;
+    width:100%;
+    min-height: 100vh;
+    position: fixed;
+    z-index:2;
+    background-color: #f5f5f5df;
+    padding-top:140px;
+    transition: 0.4s;
+  
+}
+
+.mobil-nav.is-active {
+    left:0;
+}
+
+.mobil-nav a{
+
+    display:block;
+    width:100%;
+    max-width:200px;
+    margin:0 auto 40px;
+    text-align:center;
+    padding:16px;
+    background-color: rgba(212, 210, 210, 0.748);
     color: #2E2D2B;
+    border: 1px solid #2E2D2B;
+     
+}
+
+.mobil-nav a:hover{
+    background-color: #9a9797;
+}
+
+
+a {
+    border:1px solid #397ea1;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    background: rgba(212, 210, 210, 0.254);
+    padding: 10px;
+    color:#2e2d2b;
     text-decoration: none;
     border-radius:6px;
-    
+    display: none;
+    transition: 0.2s;
 }
 
 a:hover {
-    background: #2E2D2B;
+    background: #896b2d;
     color: #DCD9D5;
 }
 
 li{
     list-style: none;
-    display: inline-block;
+    display: flex;
     padding: 0 16px;
+   
+
 }
 
 body{
-    background-image: linear-gradient(#D9F2FF,#A8ECB5);
+    background-image: linear-gradient(#D9F2FF,#3eb3c2);
+}
+
+#logo{
+    margin: 12px 0 20px 10px;
+    width: 6vh;
+    height: 7vh;
+    transition: 0.2s;
+}
+
+.nav-text{
+    text-align: center;
+    flex-grow: 1;
+    margin-top: 16px;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color:#2e2d2b;
+}
+
+.scorekort{
+    display:block;
+    width:100%;
+    max-width:200px;
+    margin:20px auto 60px;
+    text-align:center;
+    padding:16px;
+    background-color: rgba(212, 210, 210, 0.254);
+}
+
+.scorekort:hover{
+    background-color: #397ea1d0;
+}
+
+
+.appstore{
+    display:block;
+    width:100%;
+    max-width:200px;
+    margin:20px auto 60px;
+    text-align:center;
+    padding:16px;
+    background-color: rgba(212, 210, 210, 0.254);
+
+}
+
+.appstore:hover{
+    background-color: #397ea1d0;
+}
+
+#overskrift{
+    margin: 22px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color:#2e2d2b;
+}
+
+p{
+    text-align: center;
+    margin: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color:#2e2d2b;
+}
+
+#banekort{
+    margin: 20px 40px 30px 40px;
 }
 
 @media (min-width:800px){
@@ -28,6 +195,30 @@ body{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
+    .mobil-nav{
+        display: none;
     }
 
- 
+    .hamburger{
+        display: none;
+    }
+
+    a{
+        display: inline-block;
+        margin: 100px 16px 0 0;
+    }
+
+    #logo{
+        margin: 12px 0 0 10px;
+        height: 11vh;
+        width: 10vh;
+
+    }
+    
+    h1, h2{
+        padding-left: 220px;
+    }
+
+    }
+
