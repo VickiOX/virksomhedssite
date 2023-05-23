@@ -256,7 +256,6 @@ margin: 0 48px 10px;
         max-width: 1200px;
         margin: auto;
         background-color: #3dcf5a;
-        
     }
 
     .grid_1-1 {
@@ -273,6 +272,7 @@ margin: 0 48px 10px;
 
     h1 {
         font-family: "Raleway";
+        color:#2e2d2b;
     }
     
     h2, p, li {
@@ -290,10 +290,6 @@ margin: 0 48px 10px;
 
     p {
         font-size: 30px;
-    }
-
-    h1 {
-        color: #FF8D29;
     }
 
     .test {
