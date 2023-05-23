@@ -6,7 +6,7 @@
 
 .container {
     display: flex;
-    width:100%;
+    max-width:20000px;
     margin: 0;
     padding: 0;
     justify-content: space-between;
@@ -119,6 +119,7 @@ li{
 
 body{
     background-image: linear-gradient(#D9F2FF,#3eb3c2);
+    max-width: 2000px;
 }
 
 #logo{
@@ -209,8 +210,6 @@ p{
 
 #udsic_logo{
     margin: 30px 140px 30px 140px;
-    
-
 }
 
 #udisc_mobil{
@@ -274,6 +273,9 @@ p{
 
 
 @media (min-width:800px){
+   body{
+    max-width: fit-content;
+   }
     .grid_1-1{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -302,6 +304,95 @@ p{
     h1, h2{
         padding-left: 220px;
     }
+    #overskrift{
+        margin: 22px;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 54px;
+        color:#2e2d2b;
+    }
+    #udsic_logo{
+        max-width: 300px;
+        justify-content: center;
+        display: block;
+        margin: auto;
+    }
+
+    #udisc_text{
+        text-align: center;
+        margin: 30px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color:#2e2d2b;
+        
+    }
+    #banekort{
+        display: block;
+        margin: auto;
+        max-width: 700px;
+        padding-top: 80px;
+        padding-left: 200px;
 
     }
 
+    #scorekort_img{
+        display: block;
+        margin: auto;
+        max-width: 1100px;
+        padding-top: 80px;
+      
+
+    }
+
+    p{
+    display: flex;
+    text-align: left;
+    text-decoration: none;
+    margin: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color:#2e2d2b; 
+    }
+
+    .textbox{
+        margin: 30px 0 0 0;
+        display: block;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        color:#2e2d2b;
+    }
+
+    #scorekort_text{
+        margin: 30px 0 0 0;
+        display: block;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        color:#2e2d2b;
+    }
+
+   #udisc_text{
+    text-align: left;
+    margin: 30px 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color:#2e2d2b;
+
+}
+
+#udisc_mobil{
+    display: block;
+    margin: auto;
+    max-width: 700px;
+    padding-top: 80px;
+    padding-left: 200px;
+}
+
+}
