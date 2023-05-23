@@ -1,116 +1,52 @@
+/*import af fonts*/
+
+@font-face{
+    font-family: "SourceSansPro";
+    src: url(../font/SourceSansPro-Light.ttf)
+}
+@font-face{
+    font-family: "Raleway";
+    src: url(../font/Raleway-Italic-VariableFont_wght.ttf);
+}
+
 /*til mobil herunder*/
 
 body {
     background-image: linear-gradient(#a8ecb5, #3dcf5a);
 }
 
-h1, h2, p, li {
-    font-family: Arial, Helvetica, sans-serif;
-}
+h1 {
+    font-family: "Raleway";
+} 
 
-/*h1 {
-    color: #FF8D29;
-}*/
+h2, p, li {
+    font-family: "SourceSansPro";
+}
 
 img {
     max-width: 100%;
     margin: auto;
 }
 
-/*til web herunder*/
-
-@media (min-width: 800px) {
-   
-    body {
-            background-color: whitesmoke;
-    }
-
-    header {
-        max-width: 1200px;
-        margin: auto;
-    }
-
-    nav {
-        width: 100%;
-    }
-
-    ul {
-        padding: 0;
-        margin: 0;
-        list-style: none;
-        display: flex;
-        justify-content: flex-start;
-        gap: 1em;
-    }
-
-    main {
-        max-width: 1200px;
-        margin: auto;
-        background-image: linear-gradient(#f5f5f5, #8b8783 );
-    }
-
-    .grid_1-1 {
-        margin-top: 25px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 1em;
-    }
-
-    .boks{
-        grid-column: 1/2;
-        grid-row: 1/2;
-    }
-
-    h1, h2, p, li {
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    h1 {
-        font-size: 50px;
-    }
-
-
-    h2 {
-        font-size: 30px;
-    }
-
-    p {
-        font-size: 20px;
-    }
-
-    h1 {
-        color: #FF8D29;
-    }
-
-    .test {
-        display: block;
-        width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .mobil-nav{
-        display: none;
-    }
-
-    .hamburger{
-        display: none;
-    }
-
-    a{
-        display: inline-block;
-        margin: 100px 16px 0 0;
-    }
-
-    #logo{
-        margin: 12px 0 0 10px;
-        height: 11vh;
-        width: 10vh;
-
-    }
-    
+p, li {
+    font-size: 25px;
 }
 
+li {
+    list-style-type: none;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+h2 {
+    margin-top: 5px;
+    margin-bottom: 10px; 
+    font-size: 35px;
+}
+
+.sommedlem {
+    margin-top: 30px;
+}
 
 /*------------------------hamburgermenu-----------*/
 
@@ -206,7 +142,7 @@ img {
 }
 
 
-a {
+.mobilnavlink {
     border:1px solid #397ea1;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
@@ -225,13 +161,12 @@ a:hover {
     color: #DCD9D5;
 }
 
-li{
+/* li{
     list-style: none;
     display: flex;
     padding: 0 16px;
-   
-
 }
+*/
 
 
 #logo{
@@ -293,4 +228,99 @@ margin: 0 48px 10px;
 
 .sticky + .content {
     padding-top: 102px;
+}
+
+/*til web herunder*/
+
+@media (min-width: 800px) {
+
+    header {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        justify-content: flex-start;
+        gap: 1em;
+    }
+
+    main {
+        max-width: 1200px;
+        margin: auto;
+        background-color: #3dcf5a;
+        
+    }
+
+    .grid_1-1 {
+        margin-top: 25px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+    }
+
+    .boks{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    h1 {
+        font-family: "Raleway";
+    }
+    
+    h2, p, li {
+        font-family: "SourceSansPro";
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+
+    h2 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 30px;
+    }
+
+    h1 {
+        color: #FF8D29;
+    }
+
+    .test {
+        display: block;
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mobil-nav{
+        display: none;
+    }
+
+    .hamburger{
+        display: none;
+    }
+
+    a{
+        display: inline-block;
+        margin: 100px 16px 0 0;
+    }
+
+    #logo{
+        margin: 12px 0 0 10px;
+        height: 11vh;
+        width: 10vh;
+
+    }
+    
 }
