@@ -25,7 +25,7 @@ p{
     margin-right: 30px;
 }
 
-.buttonContainer{
+.tab{
     display: none;
 }
 
@@ -255,6 +255,9 @@ body{
 
 @media(min-width:800px){
 
+    .tab{
+        display: block;
+    }
 
     .arrow{
         display: none;
