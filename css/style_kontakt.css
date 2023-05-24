@@ -63,16 +63,16 @@ h2, h3 {
 .box {
     margin:5%;
     background-image: linear-gradient(#ffd9b8,#ffb574);}
-
-/*web format til layout som grid ect.*/
-@media(min-width:800px) {
-    main {
-        display: grid;
-    }
     
+    /*web format til layout som grid ect.*/
+    @media(min-width:800px) {
+        main {
+            display: grid;
+        }
     
-    header a {
-        justify-content: space-around;
+        
+        header a {
+            justify-content: space-around;
         text-decoration: none;
         background-color: rgba(0, 0, 0, 0.483);
         border-radius: 5px;
@@ -90,6 +90,14 @@ h2, h3 {
         grid-template-columns: 1fr 1fr;
     }
     /*Class*/
+    #overskrift{
+        margin: 22px;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 54px;
+        color:#2e2d2b;
+    }
     .sørengrid{
         grid-column: span 1;
         grid-row: span 4
@@ -124,6 +132,12 @@ h2, h3 {
     }
     .box{
         margin: 1.5% 5%;
+    }
+    .kontaktlogo{
+        margin:40px auto 0 auto;
+        width: 200px;
+        display: block;
+        transition: 0.2s;
     }
 }
 @font-face{
@@ -261,8 +275,8 @@ li{
 
 #logo{
     margin: 12px 0 20px 10px;
-    width: 9vh;
-    height: 10vh;
+    width: 6vh;
+    height: 7vh;
     transition: 0.2s;
 }
 
@@ -271,7 +285,7 @@ li{
     flex-grow: 1;
     margin-top: 16px;
     margin-bottom: 20px;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 16px;
     color:#2e2d2b;
