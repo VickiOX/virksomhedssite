@@ -147,19 +147,19 @@ body{
 .box{
     margin: 5%;
     background-image: linear-gradient(#cdfbd5, #93dea2);
+    padding:20px;
 }
 
 .scorekort{
     display:block;
     width:100%;
     max-width:200px;
-    margin:20px auto 60px;
+    margin:0 auto 0;
     text-align:center;
     padding:16px;
     background-color: rgba(212, 210, 210, 0.254);
-    position: relative;
-    top:-40px;
 }
+  
 
 #scorekort_img{
     margin: 20px 40px 0px 40px;
@@ -289,11 +289,11 @@ p{
 }
 
 .textbox_s{
-    margin: 40px 40px 30px 40px;
+    margin:0x;
     text-align: center;
     font-size: 18px;
     color:#2e2d2b;
-    padding-bottom: 30px;
+   
 }
 
 .text_app_p{
