@@ -4,8 +4,6 @@ body{
     background-color: #f5f5f5;
 }
 
-
-
 footer{
     background-color: #f5f5f5;
 }
@@ -14,8 +12,6 @@ footer{
     width: 50%;
    margin-bottom: 50px;
 }
-
-
 
 .arrow{
     margin-top: 20px;
@@ -29,13 +25,16 @@ p{
     margin-right: 30px;
 }
 
+.buttonContainer{
+    display: none;
+}
 
 
 /* ------------------------------------making sticky header----------------------------------*/
 
 
 .header{
-    background-color: #f5f5f5;
+    background-color: transparent;
     padding-left: 10px 16px;
  
 }
@@ -91,7 +90,8 @@ p{
     z-index: 3;
 }
 
-.hamburger .bar, .hamburger:after, .hamburger:before { /* after og before er psheudo elementer der kan lave flere elementer til den det givet element*/
+.hamburger .bar, .hamburger:after, .hamburger:before { 
+    /* after og before er psheudo elementer der kan lave flere elementer til den det givet element*/
     content: ''; /* content er none*/
     display: block;
     width: 100%;
@@ -200,9 +200,9 @@ body{
 }
 
 
-/*snap*/
+/*------------------------snap-------------------------*/
 
-section{
+.tabcontent{
     flex: none;
     height: 100vh;
     display: flex;
@@ -212,27 +212,27 @@ section{
     scroll-snap-align: start;
 }
 
-.one{
+#komigang{
     background-image: linear-gradient(#f5f5f5, #ffd9b8, #ffb574);
 }
 
-.two{
+#discmobilen{
     background-image: linear-gradient(#f5f5f5, #72dc87) ;
 }
 
-.three{
+#banen{
     background-image: linear-gradient(#f5f5f5, #5aacd6);
 }
 
-.four{
+#kfk{
     background-image: linear-gradient(#f5f5f5, #8b8783 );
 }
 
-.five{
+#kontakt{
     background-image: linear-gradient(#f5f5f5, #ffb574, #f5f5f5);
 }
 
-.tabContainer{
+.container{
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     height: 100vh;
@@ -254,9 +254,71 @@ section{
 
 
 @media(min-width:800px){
-    
-    .five{
+
+
+    .arrow{
         display: none;
+    }
+
+    .tabcontent{
+        flex: none;
+        height: 100vh;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        scroll-snap-align: none;
+    }
+
+    .container{
+        scroll-snap-type: none;
+        overflow-y: none;
+        height: 100%;
+    }
+
+    .icon{
+        height: 20%;
+    }
+    
+    .grid_1-1-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    /* Style the tab */
+    .tab {
+     overflow: hidden;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
+    }
+  
+  /* Style the buttons that are used to open the tab content */
+    .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+    }
+  
+  /* Change background color of buttons on hover */
+    .tab button:hover {
+        background-color: #ddd;
+    }
+  
+  /* Create an active/current tablink class */
+    .tab button.active {
+        background-color: #ccc;
+    }
+  
+  /* Style the tab content */
+    .tabcontent {
+        display: none;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        border-top: none;
     }
 
 
@@ -271,24 +333,23 @@ section{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
