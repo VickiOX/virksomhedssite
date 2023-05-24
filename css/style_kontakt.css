@@ -23,9 +23,13 @@ h2{
     font-weight: bold;
 }
 p{
+    align-items: center;
+    text-align: center;
     padding: 2%;
+    margin: auto;
+    width: 80%;
+    font-family: "SourceSansPro";
 }
-p,
 h2, h3 {
     text-align: center;
     margin: 1%;
