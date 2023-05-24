@@ -33,16 +33,18 @@
 
 
     <main>
-        <div class="tabContainer">
-            <div class="buttonContainer">
-                <button>KOM I GANG</button>
-                <button>DISCMOBILEN</button>
-                <button>BANEN</button>
-                <button>KFK</button>
-            </div>
+    <div class="box">
+        <div class="container">
 
-            <div class="tabPanel1">
-                <section class="one">
+        <!-- Tab links -->
+            <div class="tab">
+                <button class="tablinks" onclick="openTab(event, 'komigang')">KOM I GANG</button>
+                <button class="tablinks" onclick="openTab(event, 'discmobilen')">DISCMOBILEN</button>
+                <button class="tablinks" onclick="openTab(event, 'banen')">BANEN</button>
+                <button class="tablinks" onclick="openTab(event, 'kfk')">KFK</button>
+            </div>
+            
+                <div id="komigang" class="tabcontent" class="grid_1-1-1">
                     <img class="icon" src="grafik/komigang.svg" alt="Billede af disc golf mål og frisbee">
                     <h2>KOM I GANG</h2>
                     <div class="textbox">
@@ -50,11 +52,9 @@
                         <p>Det er gratis at spille og du skal ikke være medlem af klubben. Alle er velkomne.</p>
                     </div>
                     <img class="arrow" src="grafik/arrow.svg" alt="Pil">
-                </section>
-            </div>
+                </div>
 
-            <div class="tabPanel2">
-                <section class="two">
+                <div id="discmobilen" class="tabcontent" class="grid_1-1-1">
                     <img class="icon" src="grafik/discmobil.svg" alt="Billede af en bil, der sælger en disc">
                     <h2>DISCMOBILEN</h2>
                     <div class="textbox">
@@ -62,11 +62,9 @@
                         <p>Søren Ivø fra discconnection står klar til at hjælpe dig. </p>
                     </div>
                     <img class="arrow" src="grafik/arrow.svg" alt="Pil">
-                </section>
-            </div>
+                </div>
 
-            <div class="tabPanel3">
-                <section class="three">
+                <div id="banen" class="tabcontent" class="grid_1-1-1">
                     <img class="icon" src="grafik/bane.svg" alt="Billede af en disc golf bane">
                     <h2>BANEN</h2>
                     <div class="textbox">
@@ -74,11 +72,9 @@
                         <p>Se banekort, scorekort og statistik over banen her.</p>
                     </div>
                     <img class="arrow" src="grafik/arrow.svg" alt="Pil">
-                </section>
-            </div>
-
-            <div class="tabPanel4">       
-                <section class="four">
+                </div>
+      
+                <div id="kfk" class="tabcontent" class="grid_1-1-1">
                     <img class="icon" src="grafik/kfk.svg">
                     <h2>KLUBBEN</h2>
                     <div class="textbox">
@@ -87,16 +83,16 @@
                         <p>Turnering: Torsdage kl. 17.00</p>
                     </div>
                     <img class="arrow" src="grafik/arrow.svg" alt="Pil"> 
-                </section>
-            </div>
+                </div>
 
-
-            <section class="five">
+        </div>
+    </div>
+            <div id="kontakt" class="tabcontent">
                 <h1>PÅ GENSYN</h1>
                 <div id="skriv_container">
                 <h2>Skriv til os</h2>
-            </section>
-        </div>
+            </div>
+        
 
 
 
