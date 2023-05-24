@@ -6,7 +6,7 @@
 
 .container {
     display: flex;
-    width:100%;
+    max-width:20000px;
     margin: 0;
     padding: 0;
     justify-content: space-between;
@@ -54,6 +54,7 @@
 }
 
 .mobil-nav {
+    margin-top:105px;
     display:block;
     top:0;
     left:100%;
@@ -119,6 +120,7 @@ li{
 
 body{
     background-image: linear-gradient(#D9F2FF,#3eb3c2);
+
 }
 
 #logo{
@@ -154,7 +156,7 @@ body{
 }
 
 
-.appstore{
+.appstore_p{
     display:block;
     width:100%;
     max-width:170px;
@@ -166,7 +168,22 @@ body{
 
 }
 
-.appstore:hover{
+.appstore_a{
+    display:block;
+    width:100%;
+    max-width:170px;
+    max-height: 60px;
+    margin:0px auto 40px;
+    text-align:center;
+    padding:16px;
+    background-color: rgba(212, 210, 210, 0.254);
+
+}
+
+.appstore_a:hover{
+    background-color: #397ea1d0;
+}
+.appstore_p:hover{
     background-color: #397ea1d0;
 }
 
@@ -189,12 +206,13 @@ h3{
 }
 
 p{
-    text-align: center;
+ 
     margin: 16px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     font-size: 18px;
     color:#2e2d2b;
+    text-align: justify;
 }
 
 #udisc_text{
@@ -209,8 +227,6 @@ p{
 
 #udsic_logo{
     margin: 30px 140px 30px 140px;
-    
-
 }
 
 #udisc_mobil{
@@ -274,6 +290,12 @@ p{
 
 
 @media (min-width:800px){
+  
+   main{
+    margin:auto;
+    max-width: 1200px;;
+   }
+
     .grid_1-1{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -287,11 +309,6 @@ p{
         display: none;
     }
 
-    a{
-        display: inline-block;
-        margin: 100px 16px 0 0;
-    }
-
     #logo{
         margin: 12px 0 0 10px;
         height: 11vh;
@@ -299,9 +316,140 @@ p{
 
     }
     
+    a {
+        display: inline-block;
+    }
+
     h1, h2{
         padding-left: 220px;
     }
 
+    #overskrift{
+        margin: 22px;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 54px;
+        color:#2e2d2b;
+    }
+    #udsic_logo{
+        max-width: 300px;
+        justify-content: center;
+        display: block;
+        margin: auto;
     }
 
+    #udisc_text{
+        text-align: justify;
+        margin: 30px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color:#2e2d2b;
+
+    }
+
+    #banekort{
+        display: block;
+        margin: auto;
+        max-width: 700px;
+        padding-top: 80px;
+        padding-left: 200px;
+    }
+
+    #scorekort_img{
+        display: block;
+        margin: auto;
+        max-width: 1100px;
+        padding-top: 80px;
+    }
+
+    p{
+    display: flex;
+    text-align: left;
+    text-decoration: none;
+    margin: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color:#2e2d2b; 
+    }
+
+    .textbox{
+        margin: 30px 0 0 0;
+        display: block;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        color:#2e2d2b;
+    }
+
+    #scorekort_text{
+        margin: 30px 0 0 0;
+        display: block;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        color:#2e2d2b;
+    }
+
+   #udisc_text{
+    text-align: left;
+}
+
+#udisc_mobil{
+    display: block;
+    margin: auto;
+    max-width: 700px;
+    padding-top: 80px;
+    padding-left: 200px;
+}
+
+ .app_text{
+    text-align: left;
+ }
+
+ .text_app_a{
+    position: relative;
+    top:-20px;
+    left:130px;
+
+ }
+
+ .text_app_p{
+    position: relative;
+    top:-20px;
+    left:200px;
+ }
+
+
+
+
+ .appstore_a{
+    position: relative;
+    top: -40px;;
+    left:106px;
+ }
+
+ .appstore_p{
+    margin:0;
+    position: relative;
+    top: -40px;;
+    left:238px;
+ }
+
+ .textapp{
+    margin: 0;
+ }
+
+ nav{
+    position: relative;
+    margin: auto;
+    padding-right:60px;
+
+ }
+
+
+}
