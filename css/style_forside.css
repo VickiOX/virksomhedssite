@@ -90,7 +90,8 @@ p{
     z-index: 3;
 }
 
-.hamburger .bar, .hamburger:after, .hamburger:before { /* after og before er psheudo elementer der kan lave flere elementer til den det givet element*/
+.hamburger .bar, .hamburger:after, .hamburger:before { 
+    /* after og before er psheudo elementer der kan lave flere elementer til den det givet element*/
     content: ''; /* content er none*/
     display: block;
     width: 100%;
