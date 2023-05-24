@@ -8,73 +8,93 @@
     <link rel="stylesheet" href="../css/style_kfk.css">
 </head>
 <body>
-    <header>
-      <img src="" alt="logo">
-      <nav>
-        <ul>
-          <li><a href="index.html">Forside</a></li>
-          <li><a href="banen.html">Banen</a></li>
-          <li><a href="kfk.html">KFK</a></li>
-          <li><a href="kontakt.html">Kontakt</a></li>
-        </ul>
-      </nav>
+     <header>
+        <div class="container" id="myHeader"> 
+            <img id="logo" src="../img/logo.png" alt="logo">
+
+            <div class="nav-text"><h1>Valbyparken</h1><h2> Disc Golf</h2></div> 
+
+            <nav>
+                <a href="index.html">forside</a>
+                <a href="banen.html">banen</a>
+                <a href="kfk.html">kfk</a>
+                <a href="kontakt.html">kontakt</a>
+            </nav>
+            <button class="hamburger">
+                <div class="bar"></div>
+            </button>
+        </div>
     </header>
+    <nav class="mobil-nav"> 
+        <a class="mobilnavlink" href="index.html">forside</a>
+        <a class="mobilnavlink" href="banen.html">banen</a>
+        <a class="mobilnavlink" href="kfk.html">kfk</a>
+        <a class="mobilnavlink" href="kontakt.html">kontakt</a>
+    </nav>
 
     <main>
-      <img src="../grafik/kfk.svg">
-      <h1>Københavns Frisbee Klub</h1>
+      <img id="kfk" src="../grafik/kfk_lolo-01.svg">
+      <h1 id="overskrift">Bliv medlem af klubben</h1>
+
+      
       <div class="grid_1-1">
         <div>
-          <img src="" alt="">
+          <img  src="" alt="">
         </div>
+        <img  src="../img/torsdagsmatch.webp">
         <div class="tekstboks1">
-          <h2>Bliv medlem - alle er velkomne!</h2>
-          <p>Du bliver medlem af KFK ved at følge disse  2 trin:
-          <ol>
-            <li>Udfyld dette <a href="https://docs.google.com/forms/d/e/1FAIpQLSf2kHkfrt2Wue_lLKrkvHaVB5yXH2TD8XizsmOssqzPvg25Tw/viewform">spørgeskema</a> med 8 spørgsmål.</li>
-            <li>Overfør 350 kr. til <a href="https://www.mobilepay.dk/erhverv/betalingslink/betalingslink-svar?phone=43494&amount=350&comment=KFK%20medlemskab">43494</a> på MobilePay.</li>
-          </ol>
-          </p>
+          <h2 class="alleervelkomne">Alle er velkomne</h2>
+          <p>Du bliver medlem af KFK ved at følge disse 2 trin:</p>
+            <ol>
+              <li><b>1. Udfyld dette <a href="https://docs.google.com/forms/d/e/1FAIpQLSf2kHkfrt2Wue_lLKrkvHaVB5yXH2TD8XizsmOssqzPvg25Tw/viewform">spørgeskema</a>.
+              </b></li>
+              <li><b>2. Overfør 350 kr. til <a href="https://www.mobilepay.dk/erhverv/betalingslink/betalingslink-svar?phone=43494&amount=350&comment=KFK%20medlemskab">43494</a> på MobilePay.
+              </b></li>
           <p>Når du har tilmeldt dig, vil du modtage en velkomstmail med yderligere information. De 350 kr. gælder for en hel sæson.</p>
-          <p>Som medlem af KFK får du:
+          <h2 class="sommedlemh2">Som medlem af KFK får du:</h2>
             <ul>
-              <li>Mulighed for at deltage i klubbens faste formater som Tirsdagstræning, Torsdagsmatch, SommerLiga, VinterLiga samt alle klubbens øvrige sociale arrangementer.</li>
-              <li>Et gavekort på 120 kr. samt 10 % på alle køb hos <a href="https://discconnection.dk/">Disc Connection</a> året ud.</li>
+              <li><i>&#x2023; Mulighed for at deltage i klubbens faste formater som Tirsdagstræning, Torsdagsmatch, SommerLiga, VinterLiga samt alle klubbens øvrige sociale arrangementer.</i>
+              </li>
+              <li><i>&#x2023; Et gavekort til nye medlemmer på 120 kr., samt 10 % på alle køb hos <a href="https://discconnection.dk/">Disc Connection</a> året ud.</i>
+              </li>
             </ul>
-          </p>
         </div>
+        <img src="../img/tirsdagstraening.webp" alt="Tirsdagstraening i KFK">
       </div>
       <div class="grid_1-1">
         <div class="tekstboks2">
           <h2>Tirsdagstræning</h2>
-          <p>Som medlem af KFK kan du se frem til at træne med ligesindede hver tirsdag fra kl. 16.30 - 18.30 i og omkring Valbyparken.
+          <p class="sommedlemp">Som medlem af KFK kan du se frem til at træne med ligesindede hver tirsdag fra kl. 16.30 - 18.30 i og omkring Valbyparken.
           </p>
           <p>Cheftræner Sinus Frank forestår træningen for de erfarne - mens grundlæggende, teknisk træning forestås af hjælpetrænere.
           </p>
-          <p>Er du endnu ikke medlem, så kom og se om det er noget for dig!</p>
+          <p class="erduendnuikkep"><b>OBS: Er du endnu ikke medlem, så kom og se om det er noget for dig!</b></p>
         </div>
+        <img src="../img/instruktoersinus.webp" alt="Cheftræner Sinus Frank instruerer">
+        
         <div>
-          <img src="../img/instruktoersinus.webp" alt="Tirsdagstraening i KFK">
+         
         </div>
       </div>
         <div>
-          <img class="test" src="../img/tirsdagstraening.webp" alt="Cheftræner Sinus Frank instruerer">
+       
         </div>
       </div>
       <div class="grid_1-1">
         <div class="tekstboks3">
           <h2>Torsdagsmatch</h2>
-          <p>Som medlem af KFK kan du også se frem til at konkurrere med dine klubkammerater hver torsdag fra april til oktober! 
+          <p class="sommedlemp2">Som medlem af KFK kan du også se frem til at konkurrere med dine klubkammerater hver torsdag fra april t.o.m. september! 
           </p>
           <p>Når du tilmelder dig en given torsdag, vil du blive inddelt i en gruppe (med 3-4 andre) og tildelt et starthul.
           </p>
-          <p>Kl. 17.00 (sharp!) starter alle grupper med at spille deres tildelte hul, og bevæger sig herefter videre igennem banen.</p>
+          <p class="sharpp">Kl. 17.00 (<b>sharp!</b>) starter alle grupper med at spille deres tildelte hul, og bevæger sig herefter videre gennem banen.</p>
           </p>
-          <p>Tilmelding sker på <a href="https://discgolfmetrix.com/2459707">Disc Golf Metrix</a>, hvilket kræver oprettelse af en profil. Dette vil dine klubkammerater glædeligt hjælpe dig.</a></p>
+          <p>Tilmelding sker på <a href="https://discgolfmetrix.com/2459707">Disc Golf Metrix</a>, hvilket kræver oprettelse af en profil. Dette vil dine klubkammerater glædeligt hjælpe dig med!</a></p>
         </div>
+        <img src="../img/torsdagsmatch1.webp">
         <div class="boks">
-          <img src="../img/torsdagsmatch1.webp">
-          <img src="../img/torsdagsmatch.webp">
+          
+        
         </div>
       </div>
 
@@ -82,5 +102,6 @@
 
     <footer>
     </footer>
+    <script src="../js/script_banen.js"></script>
 </body>
 </html>

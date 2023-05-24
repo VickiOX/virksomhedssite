@@ -1,15 +1,26 @@
+/*import af fonts*/
+
+@font-face{
+    font-family: "SourceSansPro";
+    src: url(../font/SourceSansPro-Light.ttf)
+}
+@font-face{
+    font-family: "Raleway";
+    src: url(../font/Raleway-Italic-VariableFont_wght.ttf);
+}
+
 /*til mobil herunder*/
 
 body {
-    background-image: linear-gradient(#f5f5f5, #8b8783);
-}
-
-h1, h2, p, li {
-    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(#a8ecb5, #3dcf5a);
 }
 
 h1 {
-    color: #FF8D29;
+    font-family: "Raleway";
+} 
+
+h2, p, li {
+    font-family: "SourceSansPro";
 }
 
 img {
@@ -17,13 +28,227 @@ img {
     margin: auto;
 }
 
+p, li {
+    font-size: 25px;
+}
+
+li {
+    list-style-type: none;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+h2 {
+    margin-top: 5px;
+    margin-bottom: 12px; 
+    font-size: 35px;
+}
+
+.sommedlemh2 {
+    margin-top: 30px;
+}
+
+.sommedlemp {
+    margin-bottom: 12px;
+}
+
+.erduendnuikkep {
+    margin-top: 12px;
+    margin-bottom: 12px;
+} 
+
+.sommedlemp2 {
+    margin-bottom: 12px;
+}
+
+.sharpp {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+/*------------------------hamburgermenu-----------*/
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.container {
+    display: flex;
+    width:100%;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    border-bottom: 4px solid #2E2D2B;
+    background-color: #a8ecb5;
+}
+
+
+.hamburger{
+    position: relative;
+    display:block;
+    width: 35px;
+    margin: 16px 16px 20px 0;
+    cursor:pointer;
+
+
+    appearance: none;
+    background: none;
+    outline:none;
+    border:none;
+    z-index: 3;
+}
+
+.hamburger .bar, .hamburger:after, .hamburger:before { /* after og before er psheudo elementer der kan lave flere elementer til den det givet element*/
+    content: ''; /* content er none*/
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color:#2e2d2b;
+    margin:6px 0;
+    transition:0.4s;
+}
+
+.hamburger.is-active:before{
+    transform:rotate(-45deg) translate(-8px, 6px);
+}
+
+.hamburger.is-active .bar{
+    opacity: 0;
+}
+
+.hamburger.is-active:after {
+    transform:rotate(45deg) translate(-9px, -8px);
+}
+
+.mobil-nav {
+    display:block;
+    top:0;
+    left:100%;
+    width:100%;
+    min-height: 100vh;
+    position: fixed;
+    z-index:2;
+    background-color: #f5f5f5df;
+    padding-top:140px;
+    transition: 0.4s;
+  
+}
+
+.mobil-nav.is-active {
+    left:0;
+}
+
+.mobil-nav a{
+
+    display:block;
+    width:100%;
+    max-width:200px;
+    margin:0 auto 40px;
+    text-align:center;
+    padding:16px;
+    background-color: rgba(212, 210, 210, 0.748);
+    color: #2E2D2B;
+    border: 1px solid #2E2D2B;
+     
+}
+
+.mobil-nav a:hover{
+    background-color: #9a9797;
+}
+
+
+.mobilnavlink {
+    border:1px solid #397ea1;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    background: rgba(212, 210, 210, 0.254);
+    padding: 10px;
+    color:#2e2d2b;
+    text-decoration: none;
+    border-radius:6px;
+    display: none;
+    transition: 0.2s;
+}
+
+a:hover {
+    background: #896b2d;
+    color: #DCD9D5;
+}
+
+/* li{
+    list-style: none;
+    display: flex;
+    padding: 0 16px;
+}
+*/
+
+
+#logo{
+    margin: 12px 0 20px 10px;
+    width: 6vh;
+    height: 7vh;
+    transition: 0.2s;
+}
+
+.nav-text{
+    text-align: center;
+    flex-grow: 1;
+    margin-top: 16px;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color:#2e2d2b;
+}
+
+
+
+/*---------------------mobilsite-----------------*/
+
+#overskrift{
+    margin: 22px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 54px;
+    color:#2e2d2b;
+}
+
+#kfk{
+    margin:40px auto 0 auto;
+    width: 200px;
+    display: block;
+}
+
+.tekstboks1{
+margin: 0 48px 10px;
+}
+
+.tekstboks2{
+    margin: 0 48px 10px;
+    }
+
+.tekstboks3{
+    margin: 0 48px 10px;
+    }
+
+/*----------------------sticky header-----------*/
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 102px;
+}
+
 /*til web herunder*/
 
 @media (min-width: 800px) {
-   
-    body {
-            background-color: whitesmoke;
-    }
 
     header {
         max-width: 1200px;
@@ -46,7 +271,7 @@ img {
     main {
         max-width: 1200px;
         margin: auto;
-        background-image: linear-gradient(#f5f5f5, #8b8783 );
+        background-color: #3dcf5a;
     }
 
     .grid_1-1 {
@@ -61,8 +286,13 @@ img {
         grid-row: 1/2;
     }
 
-    h1, h2, p, li {
-        font-family: Arial, Helvetica, sans-serif;
+    h1 {
+        font-family: "Raleway";
+        color:#2e2d2b;
+    }
+    
+    h2, p, li {
+        font-family: "SourceSansPro";
     }
 
     h1 {
@@ -75,11 +305,7 @@ img {
     }
 
     p {
-        font-size: 20px;
-    }
-
-    h1 {
-        color: #FF8D29;
+        font-size: 30px;
     }
 
     .test {
@@ -88,4 +314,24 @@ img {
         margin-left: auto;
         margin-right: auto;
     }
+
+    .mobil-nav{
+        display: none;
+    }
+
+    .hamburger{
+        display: none;
+    }
+
+    a{
+        display: inline-block;
+        margin: 100px 16px 0 0;
+    }
+
+    #logo{
+        margin: 12px 0 0 10px;
+        height: 11vh;
+        width: 10vh;
+    }
+    
 }
