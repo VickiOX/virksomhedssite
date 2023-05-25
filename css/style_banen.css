@@ -149,6 +149,9 @@ body{
     margin: 5%;
     background-image: linear-gradient(#cdfbd5, #93dea2);
     padding:20px;
+    box-shadow: 12px 12px 2px 1px #7fc08c;
+    border-radius: 10px;
+    border: 1px solid #2E2D2B;
 }
 
 .scorekort{
