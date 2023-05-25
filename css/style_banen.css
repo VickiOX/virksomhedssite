@@ -121,7 +121,8 @@ li{
 }
 
 body{
-    background-color: #f5f5f5;
+    /*background-color: #f5f5f5;*/
+    background-image: url(/grafik/BG_test-01.svg);
 
 }
 
