@@ -10,11 +10,12 @@
 <body>
     <header>
         <div class="header" id="myHeader"> 
-            <img id="logo" src="../img/logo.png" alt="logo">
+            <img id="logo" src="grafik/kfk_lolo-01.svg" alt="logo">
 
             <div class="nav-text"><h1>Valbyparken</h1><h2> Disc golf</h2></div> 
 
             <nav>
+                <a href="index.html">Forside</a>
                 <a href="undersider/banen.html">Banen</a>
                 <a href="undersider/kfk.html">Kfk</a>
                 <a href="undersider/kontakt.html">Kontakt</a>
@@ -24,6 +25,8 @@
             </button>
         </div>
     </header>
+
+
     <nav class="mobil-nav"> 
         <a href="index.html">Forside</a>
         <a href="undersider/banen.html">Banen</a>
@@ -38,13 +41,13 @@
 
         <!-- Tab links -->
             <div class="tab">
-                <button class="tablinks" onclick="openTab(event, 'komigang')">KOM I GANG</button>
-                <button class="tablinks" onclick="openTab(event, 'discmobilen')">DISCMOBILEN</button>
-                <button class="tablinks" onclick="openTab(event, 'banen')">BANEN</button>
-                <button class="tablinks" onclick="openTab(event, 'kfk')">KFK</button>
+                <button id="tab1" class="tablinks" onclick="openTab(event, 'komigang')">KOM I GANG</button>
+                <button id="tab2" class="tablinks" onclick="openTab(event, 'discmobilen')">DISCMOBILEN</button>
+                <button id="tab3" class="tablinks" onclick="openTab(event, 'banen')">BANEN</button>
+                <button id="tab4" class="tablinks" onclick="openTab(event, 'kfk')">KFK</button>
             </div>
             
-                <div id="komigang" class="tabcontent" class="grid_1-1-1">
+                <div id="komigang" class="tabcontent">
                     <img class="icon" src="grafik/komigang.svg" alt="Billede af disc golf mål og frisbee">
                     <h2>KOM I GANG</h2>
                     <div class="textbox">
