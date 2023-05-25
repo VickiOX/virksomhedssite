@@ -1,8 +1,7 @@
-
-
-
-
-
+window.addEventListener("resize", komIgang);
+function komIgang(){
+  document.querySelector("#komigang").style.display = block;
+}
 /* -------------------sticky header-------------------*/
 
 // When the user scrolls the page, execute myFunction
