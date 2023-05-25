@@ -1,3 +1,5 @@
+
+
 * {
     margin:0;
     padding:0;
@@ -82,22 +84,24 @@
     padding:16px;
     background-color: rgba(212, 210, 210, 0.748);
     color: #2E2D2B;
-    border: 1px solid #2E2D2B;
+   
      
 }
 
 .mobil-nav a:hover{
-    background-color: #9a9797;
+    background-color:  #2E2D2B;
+    color: #f5f5f5;
 }
 
 
 a {
-    border:1px solid #397ea1;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
     font-weight: 400;
     background: rgba(212, 210, 210, 0.254);
+    box-shadow: 6px 6px 1px 1px #7e7e7eac;
     padding: 10px;
+    margin:0 5px;
     color:#2e2d2b;
     text-decoration: none;
     border-radius:6px;
@@ -106,7 +110,7 @@ a {
 }
 
 a:hover {
-    background: #896b2d;
+    background: #2E2D2B;
     color: #DCD9D5;
 }
 
@@ -129,6 +133,7 @@ body{
     width: 6vh;
     height: 7vh;
     transition: 0.2s;
+    border: none;
 }
 
 .nav-text{
@@ -136,33 +141,39 @@ body{
     flex-grow: 1;
     margin-top: 16px;
     margin-bottom: 20px;
-    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 16px;
     color:#2e2d2b;
+    font-family: "Raleway";
+    margin-top: 20px;
 }
 
 .box{
     margin: 5%;
-    background-image: linear-gradient(#cdfbd5, #93dea2);
+    background-color: #a9eab6;
     padding:20px;
     box-shadow: 12px 12px 2px 1px #7fc08c;
     border-radius: 10px;
-    border: 1px solid #2E2D2B;
+
 }
 
 .scorekort{
     display:block;
     width:100%;
     max-width:200px;
-    margin:20px auto 60px;
+    margin:20px auto 0;
     text-align:center;
     padding:16px;
     background-color: rgba(212, 210, 210, 0.254);
 }
+  
+
+#scorekort_img{
+    margin: 20px 40px 0px 40px;
+}
 
 .scorekort:hover{
-    background-color: #397ea1d0;
+    background-color: #2E2D2B;
 }
 
 
@@ -191,10 +202,12 @@ body{
 }
 
 .appstore_a:hover{
-    background-color: #397ea1d0;
+    background-color:#2E2D2B;
+   
 }
 .appstore_p:hover{
-    background-color: #397ea1d0;
+    background-color: #2E2D2B;
+  
 }
 
 #banen_ikon{
@@ -206,18 +219,15 @@ body{
 }
 
 #overskrift{
-    margin: 22px;
     text-align: center;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 54px;
-    color:#2e2d2b;
+    margin: 1%;
+    font-family: "SourceSansPro";
 }
 
 h3{
-    margin: 22px;
     text-align: center;
-    font-family: 'Raleway', sans-serif;
+    margin: 1%;
+    font-family: "SourceSansPro";
     font-weight: 400;
     font-size: 40px;
     color:#2e2d2b;
@@ -231,11 +241,11 @@ p{
     font-weight: 400;
     font-size: 18px;
     color:#2e2d2b;
-    text-align: justify;
+    text-align: left;
 }
 
 #udisc_text{
-    text-align: justify;
+    text-align: left;
     margin: 16px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
@@ -255,9 +265,7 @@ p{
 #banekort{
     margin: 20px 40px 30px 40px;
 }
-#scorekort_img{
-    margin: 20px 40px 30px 40px;
-}
+
 
 #playstore_logo{
    width: 40px;
@@ -282,6 +290,10 @@ p{
    margin-right:17px;
    color:#2e2d2b;
 }
+
+.app_text:hover{
+    color:#f5f5f5;
+}
 .textbox{
     margin: 20px 40px 30px 40px;
     text-align: center;
@@ -289,7 +301,21 @@ p{
     color:#2e2d2b;
 }
 
+.textbox_s{
+    margin:0x;
+    text-align: center;
+    font-size: 18px;
+    color:#2e2d2b;
+   
+}
 
+.text_app_p{
+    text-align: center;
+}
+
+.text_app_a{
+    text-align: center;
+}
 
 .grid_1-1_link{
     display: grid;
@@ -337,21 +363,28 @@ p{
     
     a {
         display: inline-block;
+       
     }
 
     h1, h2{
         padding-left: 220px;
     }
 
+    h3{
+        text-align: left;
+        padding-left:20px;
+        margin-top:40px; 
+    }
+
     #banen_ikon{
-        margin:50px auto -40px 40px;
+        margin:50px auto -60px 40px;
         width: 100px;
         display: inline-block;
         
     }
 
     #overskrift{
-        margin: 70px 0 0 -60px;
+        margin: 70px 0 0 -440px;
         text-align: left;
         font-family: 'Raleway', sans-serif;
         font-weight: 700;
@@ -359,11 +392,17 @@ p{
         color:#2e2d2b;
     }
 
+    .box{
+        margin: 30px;
+        background-color: #a9eab6;
+    }
+
     #udsic_logo{
-        max-width: 300px;
-        justify-content: center;
-        display: block;
-        margin: auto;
+        max-width: 260px;
+        justify-content: left;
+        margin-left: 40px;
+        margin-top: 10px;
+        margin-bottom:10px;
     }
 
     #udisc_text{
@@ -378,18 +417,12 @@ p{
 
     #banekort{
         display: block;
-        margin: auto;
+        margin: 40px;
         max-width: 700px;
-        padding-top: 80px;
-        padding-left: 200px;
+       
     }
 
-    #scorekort_img{
-        display: block;
-        margin: auto;
-        max-width: 1100px;
-        padding-top: 80px;
-    }
+   
 
     p{
     display: flex;
@@ -403,7 +436,7 @@ p{
     }
 
     .textbox{
-        margin: 30px 0 0 0;
+        margin: 30px 40px 20px 40px;
         display: block;
         text-align: center;
         font-family: 'Raleway', sans-serif;
@@ -412,14 +445,30 @@ p{
         color:#2e2d2b;
     }
 
-    #scorekort_text{
-        margin: 30px 0 0 0;
+    #scorekort_img{
         display: block;
+        margin: 0px 40px;
+        max-width: 1100px;
+    
+   }
+
+    #scorekort_text{
         text-align: center;
         font-family: 'Raleway', sans-serif;
         font-weight: 400;
         font-size: 20px;
         color:#2e2d2b;
+    }
+
+    .scorekort{
+        margin-bottom: 30px;
+        display:block;
+        margin-top:40px;
+    }
+
+    .textbox_s{
+        display: block;
+        text-align: center;
     }
 
    #udisc_text{
@@ -428,10 +477,9 @@ p{
 
 #udisc_mobil{
     display: block;
-    margin: auto;
+    margin: 40px;
     max-width: 700px;
-    padding-top: 80px;
-    padding-left: 200px;
+  
 }
 
  .app_text{
@@ -440,31 +488,27 @@ p{
 
  .text_app_a{
     position: relative;
-    top:-20px;
-    left:130px;
+
 
  }
 
  .text_app_p{
     position: relative;
-    top:-20px;
-    left:200px;
- }
 
+ 
+ }
 
 
 
  .appstore_a{
     position: relative;
-    top: -40px;;
-    left:106px;
+   
  }
 
  .appstore_p{
-    margin:0;
+    margin-left: 40px;
     position: relative;
-    top: -40px;;
-    left:238px;
+  
  }
 
  .textapp{
@@ -479,6 +523,13 @@ p{
  }
 
  
+}
 
-
+@font-face{
+    font-family: "SourceSansPro";
+    src: url(../font/SourceSansPro-Light.ttf)
+}
+@font-face{
+    font-family: "Raleway";
+    src: url(../font/Raleway-VariableFont_wght.ttf);
 }

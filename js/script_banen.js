@@ -1,12 +1,12 @@
 window.onload = function (){
 
-    const menu_btn = document.querySelector('.hamburger');
-    const mobil_menu = document.querySelector('.mobil-nav');
+  const menu_btn = document.querySelector('.hamburger');
+  const mobil_menu = document.querySelector('.mobil-nav');
 
-    menu_btn.addEventListener('click', function () {
+  menu_btn.addEventListener('click', function () {
 
-    menu_btn.classList.toggle('is-active');
-    mobil_menu.classList.toggle('is-active');
+  menu_btn.classList.toggle('is-active');
+  mobil_menu.classList.toggle('is-active');
 
 });
 
@@ -22,19 +22,9 @@ var sticky = container.offsetTop;
 
 // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
-  if (window.pageYOffset > sticky) {
-    container.classList.add("sticky");
-  } else {
-    container.classList.remove("sticky");
-  }
+if (window.pageYOffset > sticky) {
+  container.classList.add("sticky");
+} else {
+  container.classList.remove("sticky");
 }
-
-
-
-
-
-
-
-
-
-
+}
