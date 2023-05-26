@@ -92,13 +92,16 @@ a:hover.mail {
 }
 
 .box {
-    margin: 5%;
-    background-image: linear-gradient(#ffd9b8, #ffb574);
+    margin: 12% 10%;
+    background-color: #ffd9b8   ;
+    padding:2%;
+    box-shadow: 10px 10px 2px 1px #ffb574;
+    border-radius: 10px;
 }
-.shadow{
-    border: 1px solid;
-    padding: 10px;
-    box-shadow: 5px 10px #6867677c;
+.kontaktlogo {
+    width: 50%;
+    display: inline-block;
+    margin: 0 25% 0 25%;
 }
 /*web format til layout som grid ect.*/
 @media(min-width:800px) {

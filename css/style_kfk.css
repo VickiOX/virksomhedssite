@@ -73,16 +73,16 @@ h1 {
 
 h2, p, li {
     font-family: "SourceSansPro";
+
 }
 
 img {
-    max-width: 100%;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    width: 100%;
+    margin:5% 0 5% 0;
 }
 
 p, li {
-    font-size: 25px;
+    font-size:medium;
 }
 
 li {
@@ -139,9 +139,9 @@ h2 {
     margin-top: 0;
 }
 
-.tekstboks1{
-    margin-left: 30px;
-    margin-right: 30px;
+/* .tekstboks1{
+    margin-left: 3%;
+    margin-right: 3%;
     background-color: #D9F2FF;
     padding:25px;
 }
@@ -158,8 +158,14 @@ h2 {
     margin-right: 30px;
     background-color: #D9F2FF;
     padding: 25px;
+} */
+.box {
+    margin: 12% 7%;
+    background-color: #D9F2FF;
+    padding:2%;
+    box-shadow: 10px 10px 2px 1px #abe2ff;
+    border-radius: 10px;
 }
-
 /*------------------------hamburgermenu-----------*/
 
 * {
@@ -295,9 +301,20 @@ h2 {
 }
 
 /*--------------------til web herunder-------------------*/
-
 @media (min-width: 800px) {
-
+    #kfk {
+        width: 13%;
+        display: inline-block;
+        margin:4% 0% 4% 4%;
+    }
+    #overskrift{
+        margin: -12% 0 10% 20%;
+        text-align: left;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        color:#2e2d2b;
+    }
     .mobil-nav{
         display: none;
     }
@@ -344,14 +361,14 @@ h2 {
     
 
    
-    ul {
+/*     ul {
         padding: 0;
         margin: 0;
         list-style: none;
         display: flex;
         justify-content: flex-start;
         gap: 1em;
-    }
+    } */
 
     main {
         max-width: 1200px;
@@ -366,32 +383,20 @@ h2 {
         gap: 1em;
     }
 
-    .boks{
+/*     .boks{
         grid-column: 1/2;
         grid-row: 1/2;
+    } */
+    .box {
+        margin: 1.5% 5%;
     }
 
     h1 {
         font-family: "Raleway";
         color:#2e2d2b;
-    }
-    
-    h2, p, li {
-        font-family: "SourceSansPro";
-    }
-
-    h1 {
         font-size: 50px;
     }
-
-
-    h2 {
-        font-size: 30px;
-    }
-
-    p {
-        font-size: 30px;
-    }
+    
 
     .test {
         display: block;
@@ -402,7 +407,7 @@ h2 {
 
     a{
         display: inline-block;
-        margin: 100px 16px 0 0;
+        margin: 10px 16px 0 0;
     }
 
     #logo{
