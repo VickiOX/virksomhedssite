@@ -9,8 +9,9 @@ footer{
 }
 
 .icon{
-    width: 50%;
+    width: 30%;
    margin-bottom: 50px;
+   margin-top: 0;
 }
 
 .arrow{
@@ -20,14 +21,11 @@ footer{
 
 p{
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     margin-left: 30px;
     margin-right: 30px;
 }
 
-.tab{
-    display: none;
-}
 
 
 /* ------------------------------------making sticky header----------------------------------*/
@@ -183,8 +181,8 @@ body{
 
 #logo{
     margin: 12px 0 20px 10px;
-    width: 17vh;
-    height: 17vh;
+    width: 10vh;
+    height: 10vh;
     transition: 0.2s;
 }
 
@@ -202,40 +200,41 @@ body{
 
 /*------------------------snap-------------------------*/
 
-.tabcontent{
+.box{
     flex: none;
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     scroll-snap-align: start;
+    margin-top: 0;
 }
 
-#komigang{
+#one{
     background-image: linear-gradient(#f5f5f5, #ffd9b8, #ffb574);
 }
 
-#discmobilen{
+#two{
     background-image: linear-gradient(#f5f5f5, #72dc87) ;
 }
 
-#banen{
+#three{
     background-image: linear-gradient(#f5f5f5, #5aacd6);
 }
 
-#kfk{
+#four{
     background-image: linear-gradient(#f5f5f5, #8b8783 );
 }
 
-#kontakt{
+#five{
     background-image: linear-gradient(#f5f5f5, #ffb574, #f5f5f5);
 }
 
 .container{
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
-    height: 100vh;
+    height: 80vh;
 }
 
 .textbox{
@@ -244,6 +243,21 @@ body{
   margin-right: 30px;
 }
 
+#skriv_container{
+    width: 200px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-size: 25px;
+    border-radius: 12px ;
+    background-color: #f5f5f5;
+    color: #ec7105;
+    border-color: #ff8d29;
+}
+
+#five h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
 
 
 
