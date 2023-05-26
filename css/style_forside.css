@@ -9,7 +9,7 @@ footer{
 }
 
 .icon{
-    width: 35%;
+    width: 37%;
    margin-bottom: 40px;
    margin-top: 0;
 }
@@ -17,8 +17,8 @@ footer{
 .pulse{
     position: relative;
     left: 37%;
-    margin-top: 100px;
-    width: 15%;
+    margin-top: 110px;
+    width: 14%;
 }
 
 p{
@@ -31,6 +31,7 @@ p{
 
 h2{
     font-size: 33px;
+    margin-top: 20px;
 }
 
 
