@@ -335,7 +335,7 @@ li{
         display: flex;
         justify-content:space-around ;
         overflow: hidden;
-        border: 2px solid #8b8783;
+        border: none;
         border-bottom: none;
         background-color: #f5f5f5;
         margin-right: 100px;
@@ -348,36 +348,109 @@ li{
 
   
   /* Style the buttons that are used to open the tab content */
-    .tab button{
-        background-color: inherit;
+
+
+    .tab #tab1{
+        background-color: #ffb574;
+        color: white;
         float: left;
         border: none;
         outline: none;
         cursor: pointer;
-        padding: 30px 76px;
+        padding: 10px 70px;
         transition: 0.3s;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+    }
+
+    .tab #tab2{
+        background-color: #72dc87;
+        color: white;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 10px 70px;
+        transition: 0.3s;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+    }
+
+    .tab #tab3{
+        background-color: #abe2ff;
+        color: white;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 10px 76px;
+        transition: 0.3s;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+    }
+
+    .tab #tab4{
+        background-color: #dcd9d5;
+        color: white;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 10px 76px;
+        transition: 0.3s;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
     }
   
-  /* Change background color of buttons on hover */
-    .tab button:hover {
-        background-color: #ddd;
+  /* Change background color of buttons on hover for each */
+
+    .tab #tab1:hover {
+        background-color: #ff8d29;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+    }
+
+    .tab #tab2:hover {
+        background-color: #3dcf5a;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+    }
+
+    .tab #tab3:hover {
+        background-color: #5aacd6;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+    }
+
+    .tab #tab4:hover {
+        background-color: #8b8783;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
     }
   
-  /* Create an active/current tablink class */
+  /* Create an active/current tablink class for each tab */
     .tab #tab1.active {
-        background-color: #ffb574;
+        background-color: #ff8d29;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
     }
 
     .tab #tab2.active {
-        background-color: #a8ecb5;
+        background-color: #3dcf5a;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
     }
 
     .tab #tab3.active {
-        background-color: #abe2ff;
+        background-color: #5aacd6;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
     }
 
     .tab #tab4.active {
-        background-color: #bebab4;
+        background-color: #8b8783;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
     }
 
     button{
@@ -390,52 +463,57 @@ li{
     #komigang {
         display: none;
         padding: 30px;
-        border: 2px solid #8b8783;
+        border: none;
         border-top: none;
         margin-left: 100px;
         margin-right: 100px;
         margin-bottom: 100px;
-        background-color:#ffb574 ;
+        background-color:#ff8d29 ;
+        color: white;
     }
 
 
     #discmobilen {
         display: none;
         padding: 30px;
-        border: 2px solid #8b8783;
+        border: none;
         border-top: none;
         margin-left: 100px;
         margin-right: 100px;
         margin-bottom: 100px;
-        background-color: #a8ecb5;
+        background-color: #3dcf5a;
+        color: white;
     }
 
     #banen {
         display: none;
         padding: 30px;
-        border: 2px solid #8b8783;
+        border: none;
         border-top: none;
         margin-left: 100px;
         margin-right: 100px;
         margin-bottom: 100px;
-        background-color: #abe2ff;
+        background-color: #5aacd6;
+        color: white;
     }
+
 
     #kfk {
         display: none;
         padding: 30px;
-        border: 2px solid #8b8783;
+        border: none;
         border-top: none;
         margin-left: 100px;
         margin-right: 100px;
         margin-bottom: 100px;
-        background-color: #bebab4;
+        background-color: #8b8783;
+        color: white;
     }
 
     .tabcontent{
         border-bottom-left-radius: 12px;
         border-bottom-right-radius: 12px;
-        border: 2px solid #8b8783;
+        border: none;
         border-top: none;
     }
 
