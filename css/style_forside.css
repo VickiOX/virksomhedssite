@@ -1,4 +1,9 @@
 /* General */
+
+.web-container{
+    display: none;
+}
+
 body{
     margin: 0;
     background-color: #f5f5f5;
@@ -317,34 +322,13 @@ body{
 
 @media(min-width:800px){
 
-    .tab{
-        display: block;
-    }
-
-    .arrow{
-        display: none;
-    }
-
-    .mobil-nav{
-        display: none;
-    }
-
-    .hamburger{
-        display: none;
-    }
-
-    .tabcontent{
-        flex: none;
-        justify-content: none;
-        align-items: none;
-        flex-direction: none;
-        scroll-snap-align: none;
-    }
-
+   
     .container{
-        scroll-snap-type: none;
-        overflow-y: none;
-        height: 100%;
+        display: none;
+    }
+
+    .web-container{
+        display: block;
     }
     
 
@@ -353,8 +337,8 @@ body{
      overflow: hidden;
         border: 1px solid #ccc;
         background-color: #f5f5f5;
-        margin-right: 50px;
-        margin-left: 50px;
+        margin-right: 100px;
+        margin-left: 100px;
         margin-top: 70px;
     }
 
@@ -387,14 +371,12 @@ body{
         padding: 6px 12px;
         border: 1px solid #ccc;
         border-top: none;
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
         margin-bottom: 100px;
     }
 
-    .icon{
-        height: 50%;
-    }
+    
 
 
 
