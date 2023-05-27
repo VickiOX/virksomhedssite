@@ -145,11 +145,12 @@ body {
 }
 
 .box {
-  margin: 5%;
+  margin: 10% 5%;
   background-color: #a9eab6;
   padding: 20px;
   box-shadow: 12px 12px 2px 1px #7fc08c;
   border-radius: 10px;
+  margin-bottom: 40px;
 }
 
 .scorekort {
@@ -227,7 +228,7 @@ h3 {
   font-weight: 400;
   font-size: 40px;
   color: #2e2d2b;
-  padding-top: 12%;
+  margin-left: 20px;
 }
 
 p {
@@ -249,14 +250,14 @@ p {
 }
 
 #udsic_logo {
-  margin: 14% 140px 0 140px;
-
-
+ margin:10% 20%;
+  display: block;
   
 }
 
 #udisc_mobil {
   margin: 20px 40px 30px 40px;
+  
 }
 
 #banekort {
@@ -383,7 +384,7 @@ p {
   }
 
   .box {
-    margin: 30px;
+    margin: 10% 5%;
     background-color: #a9eab6;
   }
 
@@ -396,7 +397,7 @@ p {
   }
 
   #udisc_text {
-    text-align: justify;
+    text-align: left;
     margin: 30px;
     font-weight: 400;
     font-size: 18px;
@@ -452,9 +453,7 @@ p {
     text-align: center;
   }
 
-  #udisc_text {
-    text-align: left;
-  }
+
 
   #udisc_mobil {
     display: block;
