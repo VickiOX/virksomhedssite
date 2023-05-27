@@ -370,6 +370,12 @@ p {
   
   }
 
+  nav {
+    position: relative;
+    margin: auto;
+    padding-right: 60px;
+  }
+
   #banen_ikon {
     width: 100px;
     display: inline-block;
@@ -489,11 +495,7 @@ p {
     margin: 0;
   }
 
-  nav {
-    position: relative;
-    margin: auto;
-    padding-right: 60px;
-  }
+ 
 }
 
 @font-face {
