@@ -1,4 +1,9 @@
 /* General */
+
+.web-container{
+    display: none;
+}
+
 body{
     margin: 0;
     background-color: #f5f5f5;
@@ -7,6 +12,12 @@ body{
 footer{
     background-color: #f5f5f5;
 }
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+  }
 
 .icon{
     width: 35%;
@@ -185,16 +196,16 @@ li{
 
 }
 
-body{
-    background-image: linear-gradient(#D9F2FF,#3eb3c2);
-}
 
-#logo{
+
+#logo {
     margin: 12px 0 20px 10px;
-    width: 10vh;
-    height: 10vh;
+    width: 6vh;
+    height: 6vh;
     transition: 0.2s;
-}
+    border: none;
+    cursor: pointer;
+  }
 
 .nav-text{
     text-align: center;
@@ -312,16 +323,17 @@ body{
   
 
 
-/* webdesign*/
-
+/* -----------------------------------------------Webdesign-------------------------------------------------*/
 
 @media(min-width:800px){
 
-    .tab{
-        display: block;
-    }
+    main {
+        margin: auto;
+        max-width: 1200px;
+      }
 
-    .arrow{
+   
+    .container{
         display: none;
     }
 
@@ -333,68 +345,232 @@ body{
         display: none;
     }
 
-    .tabcontent{
-        flex: none;
-        justify-content: none;
-        align-items: none;
-        flex-direction: none;
-        scroll-snap-align: none;
+    nav {
+        position: relative;
+        margin: auto;
+        padding-right: 60px;
+      }
+
+    .nav_link {
+        display: inline-block;
     }
 
-    .container{
-        scroll-snap-type: none;
-        overflow-y: none;
-        height: 100%;
+
+    #logo {
+        margin: 12px 0 0 10px;
+        height: 11vh;
+        width: 10vh;
+    }
+
+    .web-container{
+        display: block;
     }
     
 
     /* Style the tab */
     .tab {
-     overflow: hidden;
-        border: 1px solid #ccc;
+        display: flex;
+        justify-content:space-around ;
+        overflow: hidden;
+        border: none;
+        border-bottom: none;
         background-color: #f5f5f5;
-        margin-right: 50px;
-        margin-left: 50px;
+        margin-right: 100px;
+        margin-left: 100px;
         margin-top: 70px;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
     }
 
 
   
   /* Style the buttons that are used to open the tab content */
-    .tab button {
-        background-color: inherit;
+
+
+    .tab #tab1{
+        background-color: #ffb574;
+        color: white;
         float: left;
         border: none;
         outline: none;
         cursor: pointer;
-        padding: 20px 24px;
+        padding: 10px 70px;
         transition: 0.3s;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+    }
+
+    .tab #tab2{
+        background-color: #72dc87;
+        color: white;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 10px 70px;
+        transition: 0.3s;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+    }
+
+    .tab #tab3{
+        background-color: #abe2ff;
+        color: white;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 10px 76px;
+        transition: 0.3s;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+    }
+
+    .tab #tab4{
+        background-color: #bebab4;
+        color: white;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 10px 76px;
+        transition: 0.3s;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
     }
   
-  /* Change background color of buttons on hover */
-    .tab button:hover {
-        background-color: #ddd;
+  /* Change background color of buttons on hover for each */
+
+    .tab #tab1:hover {
+        background-color: #ff8d29;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+    }
+
+    .tab #tab2:hover {
+        background-color: #3dcf5a;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+    }
+
+    .tab #tab3:hover {
+        background-color: #5aacd6;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+    }
+
+    .tab #tab4:hover {
+        background-color: #8b8783;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
     }
   
-  /* Create an active/current tablink class */
-    .tab button.active {
-        background-color: #ccc;
+  /* Create an active/current tablink class for each tab */
+    .tab #tab1.active {
+        background-color: #ff8d29;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+    }
+
+    .tab #tab2.active {
+        background-color: #3dcf5a;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+    }
+
+    .tab #tab3.active {
+        background-color: #5aacd6;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+    }
+
+    .tab #tab4.active {
+        background-color: #8b8783;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+    }
+
+    button{
+        font-family: 'Source Sans Pro';
+        font-size: 20px;
+        font-weight: 700;
     }
   
   /* Style the tab content */
-    .tabcontent {
+    #komigang {
         display: none;
-        padding: 6px 12px;
-        border: 1px solid #ccc;
+        padding: 30px;
+        border: none;
         border-top: none;
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
         margin-bottom: 100px;
+        background-color:#ff8d29 ;
+        color: white;
     }
 
-    .icon{
-        height: 50%;
+
+    #discmobilen {
+        display: none;
+        padding: 30px;
+        border: none;
+        border-top: none;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 100px;
+        background-color: #3dcf5a;
+        color: white;
     }
+
+    #banen {
+        display: none;
+        padding: 30px;
+        border: none;
+        border-top: none;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 100px;
+        background-color: #5aacd6;
+        color: white;
+    }
+
+
+    #kfk {
+        display: none;
+        padding: 30px;
+        border: none;
+        border-top: none;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 100px;
+        background-color: #8b8783;
+        color: white;
+    }
+
+    .tabcontent{
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+        border: none;
+        border-top: none;
+    }
+
+    /*----------------Rykke rundt på content i tabs'ne--------------------------------*/
+
+    .web-icon{
+        width: 25%;
+        position: relative;
+        left: 0%;
+        top: 0%;
+    }
+
+    .web-textbox{
+        position: relative;
+        left: 35%;
+        top: 0%;
+    }
+
+
+    
 
 
 
