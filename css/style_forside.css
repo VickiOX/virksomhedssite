@@ -190,9 +190,7 @@ li{
 
 }
 
-body{
-    background-image: linear-gradient(#D9F2FF,#3eb3c2);
-}
+
 
 #logo{
     margin: 12px 0 20px 10px;
@@ -334,24 +332,29 @@ body{
 
     /* Style the tab */
     .tab {
-     overflow: hidden;
+        display: flex;
+        justify-content:space-around ;
+        overflow: hidden;
         border: 1px solid #ccc;
         background-color: #f5f5f5;
         margin-right: 100px;
         margin-left: 100px;
         margin-top: 70px;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+
     }
 
 
   
   /* Style the buttons that are used to open the tab content */
-    .tab button {
+    .tab button{
         background-color: inherit;
         float: left;
         border: none;
         outline: none;
         cursor: pointer;
-        padding: 20px 24px;
+        padding: 30px 93px;
         transition: 0.3s;
     }
   
@@ -366,7 +369,7 @@ body{
     }
   
   /* Style the tab content */
-    .tabcontent {
+    #komigang {
         display: none;
         padding: 6px 12px;
         border: 1px solid #ccc;
@@ -374,7 +377,48 @@ body{
         margin-left: 100px;
         margin-right: 100px;
         margin-bottom: 100px;
+        background-color:#ffb574 ;
     }
+
+
+    #discmobilen {
+        display: none;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        border-top: none;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 100px;
+        background-color: #a8ecb5;
+    }
+
+    #banen {
+        display: none;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        border-top: none;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 100px;
+        background-color: #abe2ff;
+    }
+
+    #kfk {
+        display: none;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        border-top: none;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 100px;
+        background-color: #bebab4;
+    }
+
+    .tabcontent{
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+    }
+
 
     
 
