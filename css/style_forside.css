@@ -554,7 +554,20 @@ li{
         border-top: none;
     }
 
- 
+    /*----------------Rykke rundt på content i tabs'ne--------------------------------*/
+
+    .web-icon{
+        width: 25%;
+        position: relative;
+        left: 0%;
+        top: 0%;
+    }
+
+    .web-textbox{
+        position: relative;
+        left: 35%;
+        top: 0%;
+    }
 
 
     
