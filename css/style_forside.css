@@ -13,6 +13,12 @@ footer{
     background-color: #f5f5f5;
 }
 
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+  }
+
 .icon{
     width: 35%;
    margin-bottom: 40px;
@@ -192,12 +198,14 @@ li{
 
 
 
-#logo{
+#logo {
     margin: 12px 0 20px 10px;
-    width: 10vh;
-    height: 10vh;
+    width: 6vh;
+    height: 6vh;
     transition: 0.2s;
-}
+    border: none;
+    cursor: pointer;
+  }
 
 .nav-text{
     text-align: center;
@@ -315,14 +323,43 @@ li{
   
 
 
-/* webdesign*/
-
+/* -----------------------------------------------Webdesign-------------------------------------------------*/
 
 @media(min-width:800px){
+
+    main {
+        margin: auto;
+        max-width: 1200px;
+      }
 
    
     .container{
         display: none;
+    }
+
+    .mobil-nav{
+        display: none;
+    }
+
+    .hamburger{
+        display: none;
+    }
+
+    nav {
+        position: relative;
+        margin: auto;
+        padding-right: 60px;
+      }
+
+    .nav_link {
+        display: inline-block;
+    }
+
+
+    #logo {
+        margin: 12px 0 0 10px;
+        height: 11vh;
+        width: 10vh;
     }
 
     .web-container{
