@@ -335,7 +335,7 @@ li{
         display: flex;
         justify-content:space-around ;
         overflow: hidden;
-        border: 1px solid #ccc;
+        border: 2px solid #8b8783;
         border-bottom: none;
         background-color: #f5f5f5;
         margin-right: 100px;
@@ -389,8 +389,8 @@ li{
   /* Style the tab content */
     #komigang {
         display: none;
-        padding: 6px 12px;
-        border: 1px solid #ccc;
+        padding: 30px;
+        border: 2px solid #8b8783;
         border-top: none;
         margin-left: 100px;
         margin-right: 100px;
@@ -401,8 +401,8 @@ li{
 
     #discmobilen {
         display: none;
-        padding: 6px 12px;
-        border: 1px solid #ccc;
+        padding: 30px;
+        border: 2px solid #8b8783;
         border-top: none;
         margin-left: 100px;
         margin-right: 100px;
@@ -412,8 +412,8 @@ li{
 
     #banen {
         display: none;
-        padding: 6px 12px;
-        border: 1px solid #ccc;
+        padding: 30px;
+        border: 2px solid #8b8783;
         border-top: none;
         margin-left: 100px;
         margin-right: 100px;
@@ -423,8 +423,8 @@ li{
 
     #kfk {
         display: none;
-        padding: 6px 12px;
-        border: 1px solid #ccc;
+        padding: 30px;
+        border: 2px solid #8b8783;
         border-top: none;
         margin-left: 100px;
         margin-right: 100px;
@@ -435,7 +435,7 @@ li{
     .tabcontent{
         border-bottom-left-radius: 12px;
         border-bottom-right-radius: 12px;
-        border: 1px solid #ccc;
+        border: 2px solid #8b8783;
         border-top: none;
     }
 
