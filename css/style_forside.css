@@ -613,6 +613,7 @@ h2{
         border-bottom-right-radius: 12px;
         border: none;
         border-top: none;
+        position: relative;
     }
 
     /*----------------Rykke rundt på content i tabs'ne--------------------------------*/
@@ -623,6 +624,7 @@ h2{
         left: 0%;
         top: 0%;
         padding: 26px;
+        padding-bottom: 110px;
     }
 
     #komigang .web-icon{
@@ -633,7 +635,7 @@ h2{
     .web-textbox{
         position: absolute;
         left: 35%;
-        top: 30%;
+        top: 7%;
         z-index: 3;
         padding: 20px;
     }
@@ -647,6 +649,57 @@ h2{
     .web-textbox p{
         font-weight: 400px;
         font-size: 18px;
+    }
+    
+    #disc_container{
+        width: 200px;
+        border-width: 3px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        font-size: 25px;
+        border-radius: 12px ;
+        margin-top: 25px;
+        margin-left: 15px;
+        background-color: #f5f5f5;
+        border-color: #0ea52b;
+    }
+    
+    #disc_container a{
+        color: #0ea52b;
+    }
+    
+    #banen_container{
+        width: 200px;
+        border-width: 3px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        font-size: 25px;
+        border-radius: 12px ;
+        margin-top: 25px;
+        margin-left: 15px;
+        background-color: #f5f5f5;
+        border-color: #397ea1;
+    }
+    
+    #banen_container a{
+        color: #397ea1;
+    }
+    
+    #kfk_container{
+        width: 200px;
+        border-width: 3px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        font-size: 25px;
+        border-radius: 12px ;
+        margin-top: 25px;
+        margin-left: 15px;
+        background-color: #f5f5f5;
+        border-color: #54514d;
+    }
+    
+    #kfk_container a{
+        color: #54514d;
     }
 
 
