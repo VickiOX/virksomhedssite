@@ -88,7 +88,7 @@ h2{
     font-family: "SourceSansPro";
   }
   
-  .container {
+  .nav-container {
     display: flex;
     justify-content: space-between;
     background-color: #f5f5f5;
@@ -343,8 +343,7 @@ h2{
         display: inline-block;
       }
     
-      h1,
-      h2 {
+     h1, h2 {
         padding-left: 20%;
       }
 
@@ -352,6 +351,10 @@ h2{
         position: relative;
         margin: auto;
         padding-right: 60px;
+      }
+
+      .container{
+        display: none ;
       }
     
     .web-container{
@@ -553,12 +556,31 @@ h2{
         position: relative;
         left: 0%;
         top: 0%;
+        padding: 26px;
+    }
+
+    #komigang .web-icon{
+       width: 22%;
+       padding:20px ;
     }
 
     .web-textbox{
-        position: relative;
+        position: absolute;
         left: 35%;
-        top: 0%;
+        top: 30%;
+        z-index: 3;
+        padding: 20px;
+    }
+
+    .web-textbox h2{
+        padding-left: 4%;
+        font-weight: 800px;
+        font-size: 30px;
+    }
+
+    .web-textbox p{
+        font-weight: 400px;
+        font-size: 18px;
     }
 
 
