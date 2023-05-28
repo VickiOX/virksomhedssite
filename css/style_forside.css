@@ -436,8 +436,8 @@ h2{
         border: none;
         border-bottom: none;
         background-color: #f5f5f5;
-        margin-right: 100px;
-        margin-left: 100px;
+        margin-right: 5%;
+        margin-left: 5%;
         margin-top: 70px;
         border-top-left-radius: 12px;
         border-top-right-radius: 12px;
@@ -455,7 +455,7 @@ h2{
         border: none;
         outline: none;
         cursor: pointer;
-        padding: 10px 70px;
+        padding: 10px 7%;
         transition: 0.3s;
         border-top-right-radius: 12px;
         border-top-left-radius: 12px;
@@ -468,7 +468,7 @@ h2{
         border: none;
         outline: none;
         cursor: pointer;
-        padding: 10px 70px;
+        padding: 10px 7%;
         transition: 0.3s;
         border-top-right-radius: 12px;
         border-top-left-radius: 12px;
@@ -481,7 +481,7 @@ h2{
         border: none;
         outline: none;
         cursor: pointer;
-        padding: 10px 76px;
+        padding: 10px 7%;
         transition: 0.3s;
         border-top-right-radius: 12px;
         border-top-left-radius: 12px;
@@ -494,7 +494,7 @@ h2{
         border: none;
         outline: none;
         cursor: pointer;
-        padding: 10px 76px;
+        padding: 10px 8%;
         transition: 0.3s;
         border-top-right-radius: 12px;
         border-top-left-radius: 12px;
@@ -562,10 +562,6 @@ h2{
         display: none;
         padding: 30px;
         border: none;
-        border-top: none;
-        margin-left: 100px;
-        margin-right: 100px;
-        margin-bottom: 100px;
         background-color:#ff8d29 ;
         color: white;
     }
@@ -576,9 +572,6 @@ h2{
         padding: 30px;
         border: none;
         border-top: none;
-        margin-left: 100px;
-        margin-right: 100px;
-        margin-bottom: 100px;
         background-color: #3dcf5a;
         color: white;
     }
@@ -588,9 +581,6 @@ h2{
         padding: 30px;
         border: none;
         border-top: none;
-        margin-left: 100px;
-        margin-right: 100px;
-        margin-bottom: 100px;
         background-color: #5aacd6;
         color: white;
     }
@@ -601,9 +591,6 @@ h2{
         padding: 30px;
         border: none;
         border-top: none;
-        margin-left: 100px;
-        margin-right: 100px;
-        margin-bottom: 100px;
         background-color: #8b8783;
         color: white;
     }
@@ -614,9 +601,12 @@ h2{
         border: none;
         border-top: none;
         position: relative;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 100px;
     }
 
-    /*----------------Rykke rundt på content i tabs'ne--------------------------------*/
+    /*----------------Rykke rundt på content i tabs'ne-----------------------*/
 
     .web-icon{
         width: 25%;
@@ -647,10 +637,13 @@ h2{
     }
 
     .web-textbox p{
-        font-weight: 400px;
-        font-size: 18px;
+        font-weight: 450px;
+        font-size: 20px;
     }
     
+
+    /* ----------- buttons in the tabs - color, size and position------------*/
+
     #disc_container{
         width: 200px;
         border-width: 3px;
