@@ -1,5 +1,15 @@
 /* General */
 
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url(font/SourceSansPro-Light.ttf)
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url(font/Raleway-VariableFont_wght.ttf);
+}
+
 .web-container{
     display: none;
 }
@@ -227,9 +237,15 @@ h2{
 .nav-text h2{
     margin-top: 7px;
     font-family: 'Raleway', sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 20px;
     margin-bottom: 5px;
+}
+
+.nav-text h1{
+  font-size: 40px;
+  font-weight: 900;
+  font-family: 'Raleway', sans-serif;
 }
 
 /*------------------------snap-------------------------*/
@@ -637,12 +653,12 @@ h2{
 
     .web-textbox h2{
         padding-left: 4%;
-        font-weight: 800px;
+        font-weight: 800;
         font-size: 30px;
     }
 
     .web-textbox p{
-        font-weight: 450px;
+        font-weight: 450;
         font-size: 20px;
     }
     
@@ -700,6 +716,9 @@ h2{
         color: #54514d;
     }
 
+
+    
+  
 
     
 
