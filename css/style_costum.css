@@ -3,14 +3,12 @@ html{
     --secondary-color: #2e2d2b; /*font farve, gælder alle fonte*/
     --tertiary-color: #7e7e7eac; /*boxshadow farve til links*/
 
-    --bane-color_1: #a9eab6; /*baggrund farve til box*/
-    --banen-color_2: #7fc08c; /*boxshadow farve*/
+    --bane-color: #a9eab6; /*baggrund farve til box*/
 
-    --kfk-color_1: #D9F2FF; /*baggrund farve til box*/
-    --kfk-color_2: #abe2ff; /*boxshadow farve*/
+    --kfk-color: #D9F2FF; /*baggrund farve til box*/
 
-    --kontakt-color_1: #ffd9b8; /*baggrund farve til box*/
-    --kontakt-color_3: #ffb574; /*boxshadow farve*/
+    --kontakt-color: #ffd9b8; /*baggrund farve til box*/
+
 }
 
 /* når i skal skrive en farve skriv ex: 
