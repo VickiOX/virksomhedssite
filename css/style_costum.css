@@ -13,3 +13,8 @@ html{
     --kontakt-color_3: #ffb574; /*boxshadow farve*/
 }
 
+/* når i skal skrive en farve skriv ex: 
+
+p{
+    color: var(----primary-color);
+}
