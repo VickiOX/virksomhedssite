@@ -34,7 +34,7 @@ h2{
   display: flex;
   justify-content: space-between;
   background-color: var(--primary-color);
-  border-bottom:2px solid #7e7e7eac;
+  border-bottom:2px solid var(--tertiary-color);
 }
 
 .hamburger {
@@ -58,7 +58,7 @@ h2{
   display: block;
   width: 100%;
   height: 5px;
-  background-color: #2e2d2b;
+  background-color:var(--secondary-color);
   margin: 6px 0;
   transition: 0.4s;
 }
@@ -101,19 +101,19 @@ h2{
   text-align: center;
   padding: 16px;
   background-color: rgba(212, 210, 210, 0.748);
-  color: #2e2d2b;
+  color:var(--secondary-color);
   border-radius: 6px;
-  box-shadow: 6px 6px 1px 1px #7e7e7eac;
+  box-shadow: 6px 6px 1px 1px var(--tertiary-color);
 }
 
 .nav_link {
   font-size: 18px;
   font-weight: 400;
   background: rgba(212, 210, 210, 0.254);
-  box-shadow: 6px 6px 1px 1px #7e7e7eac;
+  box-shadow: 6px 6px 1px 1px var(--tertiary-color);
   padding: 10px;
   margin: 0 5px;
-  color: #2e2d2b;
+  color: var(--secondary-color);
   text-decoration: none;
   border-radius: 6px;
   display: none;
@@ -121,7 +121,7 @@ h2{
 }
 
 .nav_link:hover {
-  background: #2e2d2b;
+  background: var(--secondary-color);
   color: var(--primary-color);
 }
 
@@ -152,13 +152,13 @@ body {
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 16px;
-  color: #2e2d2b;
+  color: var(--secondary-color);
   margin-top: 20px;
 }
 
 .box {
   margin: 10% 5%;
-  background-color: #a9eab6;
+  background-color: var( --bane-color);
   padding: 20px;
   box-shadow: 12px 12px 2px 1px #7fc08c;
   border-radius: 10px;
@@ -174,7 +174,7 @@ body {
   font-size: 20px;
   font-weight: 400;
   padding: 16px;
-  color: #2e2d2b;
+  color:var(--secondary-color);
   background-color: rgba(212, 210, 210, 0.254);
   border-radius: 6px;
   box-shadow: 6px 6px 1px 1px #7fc08c;
@@ -185,7 +185,7 @@ body {
 }
 
 .scorekort:hover {
-  background-color: #2e2d2b;
+  background-color:var(--secondary-color);
   color: var(--primary-color);
 }
 
@@ -204,7 +204,7 @@ body {
   background-color: rgba(212, 210, 210, 0.254);
   transform: scale(90%);
   border-radius: 6px;
-  box-shadow: 6px 6px 1px 1px #7fc08c;
+  box-shadow: 6px 6px 1px 1px  #7fc08c;
  
 }
 
@@ -214,7 +214,7 @@ body {
 
 .appstore_a:hover,
 .appstore_p:hover {
-  background-color: #2e2d2b;
+  background-color: var(--secondary-color);
 }
 
 .appstore_a:hover > p,
@@ -227,6 +227,7 @@ body {
   width: 200px;
   display: block;
   transition: 0.2s;
+ 
 }
 
 #overskrift {
@@ -240,7 +241,7 @@ h3 {
   margin: 1%;
   font-weight: 900;
   font-size: 30px;
-  color: #2e2d2b;
+  color: var(--secondary-color);
   margin-left: 20px;
 }
 
@@ -249,7 +250,7 @@ p {
   padding-top: 20px;
   font-weight: 400;
   font-size: 18px;
-  color: #2e2d2b;
+  color: var(--secondary-color);
   text-align: left;
 }
 
@@ -258,7 +259,7 @@ p {
   margin: 16px;
   font-weight: 400;
   font-size: 18px;
-  color: #2e2d2b;
+  color: var(--secondary-color);
   margin-top: -10px;
 }
 
@@ -307,7 +308,7 @@ p {
   margin: 20px 40px 30px 40px;
   text-align: center;
   font-size: 18px;
-  color: #2e2d2b;
+  color: var(--secondary-color);
 }
 
 .textbox a:hover {
@@ -318,7 +319,7 @@ p {
   margin: 0x;
   text-align: center;
   font-size: 18px;
-  color: #2e2d2b;
+  color: var(--secondary-color);
 }
 
 .text_app_p {
@@ -342,6 +343,19 @@ p {
 
 .sticky + .content {
   padding-top: 102px;
+}
+
+footer {
+  background-color: #9a97975d;
+  gap: 10%;
+  
+}
+footer p{
+  text-align: center;
+  padding: 2%;
+  margin: auto;
+  justify-content: center;
+  font-family: 'Source Sans Pro';
 }
 
 @media (min-width: 800px) {
@@ -394,21 +408,25 @@ p {
   }
 
   #banen_ikon {
-    width: 100px;
+    width: 15%;
     display: inline-block;
-    margin: 60px 0 -10px 30px;
+    margin: 80px 0 -10px 30px;
   }
-
+ 
   #overskrift {
     font-weight: 700;
     font-size: 40px;
-    color: #2e2d2b;
+    color: var(--secondary-color);
     display:inline-block;
+  }
+  
+  .banen{
+    padding-bottom: 8%;
   }
 
   .box {
     margin: 1% 5% 10%;
-    background-color: #a9eab6;
+    background-color: var( --bane-color);
   }
 
   #udsic_logo {
@@ -424,8 +442,9 @@ p {
     margin: 40px;
     font-weight: 400;
     font-size: 20px;
-    color: #2e2d2b;
+    color: var(--secondary-color);
   }
+  
 
   #banekort {
     display: block;
@@ -440,7 +459,7 @@ p {
     margin: 20px 45px;
     font-weight: 400;
     font-size: 20px;
-    color: #2e2d2b;
+    color: var(--secondary-color);
   }
 
   .textbox {
@@ -449,7 +468,7 @@ p {
     text-align: center;
     font-weight: 400;
     font-size: 20px;
-    color: #2e2d2b;
+    color: var(--secondary-color);
   }
 
   #scorekort_img {
@@ -462,7 +481,7 @@ p {
     text-align: center;
     font-weight: 400;
     font-size: 20px;
-    color: #2e2d2b;
+    color: var(--secondary-color);
   }
 
   .scorekort {
@@ -511,7 +530,14 @@ p {
   .textapp {
     margin: 0;
   }
-
+ 
+  footer p{
+    text-align: center;
+    padding: 2%;
+    margin: auto;
+    justify-content: center;
+  font-family: 'Source Sans Pro';
+  }
  
 }
 
