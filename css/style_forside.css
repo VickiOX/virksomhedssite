@@ -42,11 +42,16 @@ footer {
 
 p{
     font-family: 'Source Sans Pro';
-    font-size: 19px;
+    font-size: 17px;
     font-weight: 300px;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 10px;
+}
+
+#one .textbox p{
+  font-size: 19px;
+  font-weight: 300px;
 }
 
 h2{
