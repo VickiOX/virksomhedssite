@@ -7,7 +7,7 @@
 
 p,
 a {
-  font-family: "SourceSansPro";
+  font-family: "Source Sans Pro";
 }
 
 h1,
@@ -19,10 +19,22 @@ h6 {
   font-family: "Raleway";
 }
 
+
+h1{
+  font-size: 40px;
+  font-weight: 700;
+}
+
+h2{
+  font-size: 20px;
+  font-weight: 400;
+}
+
 .container {
   display: flex;
   justify-content: space-between;
-  background-color: #f5f5f5;
+  background-color: var(--primary-color);
+  border-bottom:2px solid #7e7e7eac;
 }
 
 .hamburger {
@@ -110,7 +122,7 @@ h6 {
 
 .nav_link:hover {
   background: #2e2d2b;
-  color: #dcd9d5;
+  color: var(--primary-color);
 }
 
 li {
@@ -120,7 +132,7 @@ li {
 }
 
 body {
-  background-color: #f5f5f5;
+  background-color:var(--primary-color);
   /* background-image: url(/grafik/BG_test-01.svg);*/
 }
 
@@ -174,7 +186,7 @@ body {
 
 .scorekort:hover {
   background-color: #2e2d2b;
-  color: #f5f5f5;
+  color: var(--primary-color);
 }
 
 .appstore_p {
@@ -207,7 +219,7 @@ body {
 
 .appstore_a:hover > p,
 .appstore_p:hover > p {
-  color: #f5f5f5;
+  color:var(--primary-color);
 }
 
 #banen_ikon {
@@ -220,13 +232,14 @@ body {
 #overskrift {
   text-align: center;
   margin: 1%;
+  font-size: 37px;
 }
 
 h3 {
   text-align: center;
   margin: 1%;
-  font-weight: 400;
-  font-size: 40px;
+  font-weight: 900;
+  font-size: 30px;
   color: #2e2d2b;
   margin-left: 20px;
 }
@@ -250,8 +263,10 @@ p {
 }
 
 #udsic_logo {
- margin:10% 20%;
+ margin:8% 28%;
+ justify-content: center;
   display: block;
+  width: 40%;
   
 }
 
@@ -295,8 +310,8 @@ p {
   color: #2e2d2b;
 }
 
-.textbox:hover {
-  color: #f5f5f5;
+.textbox a:hover {
+  color: var(--primary-color);
 }
 
 .textbox_s {
@@ -367,6 +382,8 @@ p {
     text-align: left;
     padding-left: 20px;
     margin-top: 40px;
+    font-size: 35px;
+    font-weight: 800;
   
   }
 
@@ -384,7 +401,7 @@ p {
 
   #overskrift {
     font-weight: 700;
-    font-size: 54px;
+    font-size: 40px;
     color: #2e2d2b;
     display:inline-block;
   }
@@ -404,9 +421,9 @@ p {
 
   #udisc_text {
     text-align: left;
-    margin: 30px;
+    margin: 40px;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
     color: #2e2d2b;
   }
 
@@ -422,7 +439,7 @@ p {
     text-decoration: none;
     margin: 20px 45px;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
     color: #2e2d2b;
   }
 
