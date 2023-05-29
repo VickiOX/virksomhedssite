@@ -15,22 +15,19 @@ body {
     background-color: #f5f5f5;
 }
 
-h1 {
+h1, h2 {
     font-family: "Raleway";
-} 
+}
 
-h2, p, li {
+p, li {
     font-family: "SourceSansPro";
-
+    font-size: 18px;
+    font-weight: 300;
 }
 
 img {
     width: 100%;
     margin:5% 0 5% 0;
-}
-
-p, li {
-    font-size:medium;
 }
 
 li {
@@ -40,6 +37,8 @@ li {
 }
 
 h2 {
+    font-size: 30px; 
+    font-weight: 900; 
     margin-top: 5px;
     margin-bottom: 12px; 
     font-size: 35px;
@@ -72,7 +71,7 @@ h2 {
     margin-bottom: 0;
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 37px;
     color:#2e2d2b;
 }
@@ -226,6 +225,16 @@ h2 {
     display: flex;
     padding: 0 16px;
   }
+
+  header h1 {
+    font-size: 40px;
+    font-weight: 900;
+  }
+
+  header h2 {
+    font-size: 20px;
+    font-weight: 400;
+  }
   
   
   #logo {
@@ -247,6 +256,12 @@ h2 {
     color: #2e2d2b;
     margin-top: 20px;
   }
+
+  .nav-text h1{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+    }
 
 /*-------------------------------------*/
 
@@ -277,6 +292,10 @@ h2 {
         color:#2e2d2b;
     }
 
+    p, li {
+      font-size: 20px;
+  }
+
     /*-------------header--------*/
     .mobil-nav {
         display: none;
@@ -302,6 +321,8 @@ h2 {
       }
     
       h3 {
+        font-size: 35px;
+        font-weight: 400;
         text-align: left;
         padding-left: 20px;
         margin-top: 40px;
@@ -343,6 +364,7 @@ h2 {
         grid-column: 1/2;
         grid-row: 1/2;
     } */
+
     .box {
         margin: 1.5% 5%;
     }
@@ -350,10 +372,20 @@ h2 {
     h1 {
         font-family: "Raleway";
         color:#2e2d2b;
-        font-size: 50px;
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    h2 {
+      font-size: 35px;
+      font-weight: 800;
+    }
+
+    p {
+      font-size: 20px;
+      font-weight: 400;
     }
     
-
     .test {
         display: block;
         width: 1200px;
