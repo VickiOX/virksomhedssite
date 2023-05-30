@@ -112,6 +112,7 @@ h2 {
     padding:2%;
     box-shadow: 10px 10px 2px 1px #abe2ff;
     border-radius: 10px;
+    margin-bottom: 120px;
 }
 /*------------------------hamburgermenu-----------*/
 /*---------------------header---------------*/
@@ -367,6 +368,7 @@ h2 {
 
     .box {
         margin: 1.5% 5%;
+        margin-bottom: 120px;
     }
 
     h1 {
