@@ -441,6 +441,7 @@ h2{
 
       video{
         display: block;
+        width: 100%;
       }
     
       #logo {
