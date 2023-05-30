@@ -371,11 +371,13 @@ a:hover.mail {
 
 @font-face {
     font-family: 'Source Sans Pro';
+    font-display: swap;
     src: url(../font/SourceSansPro-Light.ttf)
 }
 
 @font-face {
     font-family: 'Raleway';
+    font-display: swap;
     src: url(../font/Raleway-VariableFont_wght.ttf);
 }
 
