@@ -22,7 +22,7 @@ h6 {
 
 h1{
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 h2{
@@ -137,7 +137,7 @@ body {
 }
 
 #logo {
-  margin: 12px 0 20px 10px;
+  margin: 12px 0 13px 10px;
   width: 6vh;
   height: 6vh;
   transition: 0.2s;
@@ -231,9 +231,14 @@ body {
 }
 
 #overskrift {
+  margin: 22px;
+  margin-bottom: 0;
   text-align: center;
-  margin: 1%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
   font-size: 37px;
+  color:#2e2d2b;
+
 }
 
 h3 {
@@ -277,7 +282,9 @@ p {
 }
 
 #banekort {
-  margin: 20px 40px 30px 40px;
+  margin: 20px 0px 20px 10px;
+  width: 96%;
+  justify-content: center;
 }
 
 #playstore_logo {
@@ -414,14 +421,16 @@ footer p{
   }
  
   #overskrift {
+    margin: -7.5% 0 10% 20%;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 40px;
-    color: var(--secondary-color);
-    display:inline-block;
+    font-size: 50px;
+    color:#2e2d2b;
   }
   
   .banen{
-    padding-bottom: 8%;
+    padding-bottom: 0;
   }
 
   .box {
@@ -448,7 +457,7 @@ footer p{
 
   #banekort {
     display: block;
-    margin: 40px;
+    margin: 0;
     max-width: 700px;
   }
 
@@ -473,8 +482,9 @@ footer p{
 
   #scorekort_img {
     display: block;
-    margin: 0px 40px;
-    max-width: 1100px;
+    margin-left: 16.5%;
+    justify-content: center;
+    max-width: 700px;
   }
 
   #scorekort_text {
