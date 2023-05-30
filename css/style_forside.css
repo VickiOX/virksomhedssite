@@ -585,7 +585,7 @@ h2{
     }
 
     button{
-        font-family: 'Source Sans Pro';
+        font-family: 'Source Sans Pro', sans-serif;
         font-size: 20px;
         font-weight: 700;
     }
@@ -653,6 +653,7 @@ h2{
     #komigang .web-icon{
        width: 22%;
        padding:20px ;
+       padding-bottom: 75px;
     }
 
     .web-textbox{
@@ -667,15 +668,34 @@ h2{
         padding-left: 4%;
         font-weight: 800;
         font-size: 30px;
+        font-family: 'Source Sans Pro';
     }
 
     .web-textbox p{
-        font-weight: 450;
+        font-weight: 400;
         font-size: 20px;
+        font-family: 'Raleway', sans-serif;
     }
     
 
     /* ----------- buttons in the tabs - color, size and position------------*/
+
+    #komigang_container{
+      width: 200px;
+      border-width: 3px;
+      padding-top: 18px;
+      padding-bottom: 18px;
+      font-size: 25px;
+      border-radius: 12px ;
+      margin-top: 25px;
+      margin-left: 15px;
+      background-color: #f5f5f5;
+      border-color: #ffb574;
+    }
+  
+    #komigang_container a{
+      color: #ff8d29;
+    }
 
     #disc_container{
         width: 200px;
