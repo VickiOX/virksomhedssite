@@ -1,13 +1,16 @@
 /* General */
 
 @font-face {
-  font-family: 'Source Sans Pro';
-  src: url(font/SourceSansPro-Light.ttf)
+  font-family: "SourceSansPro";
+  src: url(../font/SourceSansPro-Light.ttf);
+}
+@font-face {
+  font-family: "Raleway";
+  src: url(../font/Raleway-VariableFont_wght.ttf);
 }
 
-@font-face {
-  font-family: 'Raleway';
-  src: url(font/Raleway-VariableFont_wght.ttf);
+video{
+  display: none ;
 }
 
 .web-container{
@@ -24,18 +27,11 @@ footer {
     gap: 10%;
 }
 
-.nav-container {
-    display: flex;
-    justify-content: space-between;
-    background-color: #f5f5f5;
-    border-bottom: 2px solid var(--tertiary-color);
-    color: #2e2d2b;
-  }
 
 .icon{
     width: 35%;
    margin-bottom: 40px;
-   margin-top: 25px;
+   margin-top: 20px;
 }
 
 .pulse{
@@ -43,6 +39,13 @@ footer {
     left: 40%;
     margin-top: 60px;
     width: 13%;
+}
+
+#one .pulse{
+  position: relative;
+  left: 40%;
+  margin-top: 10px;
+  width: 13%;
 }
 
 p{
@@ -104,11 +107,14 @@ h2{
     font-family: "SourceSansPro";
   }
   
+
   .nav-container {
     display: flex;
     justify-content: space-between;
-    background-color: #f5f5f5;
-  }
+    background-color: var(--primary-color);
+    border-bottom:2px solid var(--tertiary-color);
+
+    }
   
   .hamburger {
     position: relative;
@@ -131,7 +137,7 @@ h2{
     display: block;
     width: 100%;
     height: 5px;
-    background-color: #2e2d2b;
+    background-color:var(--secondary-color);
     margin: 6px 0;
     transition: 0.4s;
   }
@@ -174,19 +180,19 @@ h2{
     text-align: center;
     padding: 16px;
     background-color: rgba(212, 210, 210, 0.748);
-    color: #2e2d2b;
+    color:var(--secondary-color);
     border-radius: 6px;
-    box-shadow: 6px 6px 1px 1px #7e7e7eac;
+    box-shadow: 6px 6px 1px 1px var(--tertiary-color);
   }
   
   .nav_link {
     font-size: 18px;
     font-weight: 400;
     background: rgba(212, 210, 210, 0.254);
-    box-shadow: 6px 6px 1px 1px #7e7e7eac;
+    box-shadow: 6px 6px 1px 1px var(--tertiary-color);
     padding: 10px;
     margin: 0 5px;
-    color: #2e2d2b;
+    color: var(--secondary-color);
     text-decoration: none;
     border-radius: 6px;
     display: none;
@@ -194,8 +200,8 @@ h2{
   }
   
   .nav_link:hover {
-    background: #2e2d2b;
-    color: #dcd9d5;
+    background: var(--secondary-color);
+    color: var(--primary-color);
   }
   
   li {
@@ -221,14 +227,14 @@ h2{
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 16px;
-    color: #2e2d2b;
+    color: var(--secondary-color);
     margin-top: 20px;
   }
   
 
 .nav-text h2{
     margin-top: 7px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway';
     font-weight: 400;
     font-size: 20px;
     margin-bottom: 5px;
@@ -238,7 +244,7 @@ h2{
 .nav-text h1{
   font-size: 40px;
   font-weight: 900;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway';
   color: #2e2d2b;
 }
 
@@ -319,7 +325,7 @@ h2{
   border-color: #ff8d29;
 }
 
-#_container a{
+#komigang_container a{
   color: #ec7105;
 }
 
@@ -432,6 +438,10 @@ h2{
       .hamburger {
         display: none;
       }
+
+      video{
+        display: block;
+      }
     
       #logo {
         margin: 12px 0 0 10px;
@@ -461,7 +471,7 @@ h2{
         display: block;
     }
     
-    /* Style the tab */
+    /* ----------------------Style the tab----------------------- */
     .tab {
         display: flex;
         justify-content:space-around ;
