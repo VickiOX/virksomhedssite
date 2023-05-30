@@ -286,6 +286,23 @@ a:hover.mail {
     }
     
     /*Class*/
+    h2.titel{
+      font-size: 35px;
+      font-weight: 800;
+      padding-left: 0%;
+      text-align: center;
+    }
+    h3.titel{
+      font-size: 25px;
+      font-weight: 400;
+      padding-left: 0%;
+      text-align: center;
+    }
+    p.text{
+      font-size: 20px;
+      font-weight: 400;
+      font-family: 'Source Sans Pro';
+    }
     .div_grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -349,7 +366,6 @@ a:hover.mail {
         margin: 12px 0 0 10px;
         height: 11vh;
         width: 10vh;
-        padding: 0%;
       }
     
       .nav_link {
