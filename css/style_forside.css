@@ -266,15 +266,15 @@ h2{
 }
 
 #two{
-    background-image: linear-gradient(#f5f5f5, #a8ecb5) ;
+    background-image: linear-gradient(#f5f5f5, #bebab4 );
 }
 
 #three{
-    background-image: linear-gradient(#f5f5f5, #abe2ff);
+    background-image: linear-gradient(#f5f5f5, #a8ecb5) ;
 }
 
 #four{
-    background-image: linear-gradient(#f5f5f5, #bebab4 );
+    background-image: linear-gradient(#f5f5f5, #abe2ff);
 }
 
 #five{
@@ -341,11 +341,12 @@ h2{
     font-size: 25px;
     border-radius: 12px ;
     background-color: #f5f5f5;
-    border-color: #3dcf5a;
+    border-color: #8b8783;
+   
 }
 
 #disc_container a{
-    color: #0ea52b;
+    color: #54514d;
 }
 
 #banen_container{
@@ -359,11 +360,11 @@ h2{
     font-size: 25px;
     border-radius: 12px ;
     background-color: #f5f5f5;
-    border-color: #5aacd6;
+    border-color: #3dcf5a;
 }
 
 #banen_container a{
-    color: #397ea1;
+    color: #0ea52b;
 }
 
 #kfk_container{
@@ -377,11 +378,11 @@ h2{
     font-size: 25px;
     border-radius: 12px ;
     background-color: #f5f5f5;
-    border-color: #8b8783;
+    border-color: #5aacd6;
 }
 
 #kfk_container a{
-    color: #54514d;
+    color: #397ea1;
 }
 
 #vises{
@@ -506,7 +507,7 @@ h2{
     }
 
     .tab #tab2{
-        background-color: #72dc87;
+        background-color: #bebab4;
         color: white;
         float: left;
         border: none;
@@ -519,7 +520,7 @@ h2{
     }
 
     .tab #tab3{
-        background-color: #abe2ff;
+        background-color: #72dc87;
         color: white;
         float: left;
         border: none;
@@ -532,7 +533,7 @@ h2{
     }
 
     .tab #tab4{
-        background-color: #bebab4;
+        background-color: #abe2ff;
         color: white;
         float: left;
         border: none;
@@ -553,19 +554,19 @@ h2{
     }
 
     .tab #tab2:hover {
-        background-color: #3dcf5a;
+        background-color: #8b8783;
         border-top-right-radius: 12px;
         border-top-left-radius: 12px;
     }
 
     .tab #tab3:hover {
-        background-color: #5aacd6;
+        background-color: #3dcf5a;
         border-top-right-radius: 12px;
         border-top-left-radius: 12px;
     }
 
     .tab #tab4:hover {
-        background-color: #8b8783;
+        background-color: #5aacd6;
         border-top-right-radius: 12px;
         border-top-left-radius: 12px;
     }
@@ -578,19 +579,19 @@ h2{
     }
 
     .tab #tab2.active {
-        background-color: #3dcf5a;
+        background-color: #8b8783;
         border-top-right-radius: 12px;
         border-top-left-radius: 12px;
     }
 
     .tab #tab3.active {
-        background-color: #5aacd6;
+        background-color: #3dcf5a;
         border-top-right-radius: 12px;
         border-top-left-radius: 12px;
     }
 
     .tab #tab4.active {
-        background-color: #8b8783;
+        background-color: #5aacd6;
         border-top-right-radius: 12px;
         border-top-left-radius: 12px;
     }
@@ -616,7 +617,7 @@ h2{
         padding: 30px;
         border: none;
         border-top: none;
-        background-color: #3dcf5a;
+        background-color: #8b8783;
         color: white;
     }
 
@@ -625,7 +626,7 @@ h2{
         padding: 30px;
         border: none;
         border-top: none;
-        background-color: #5aacd6;
+        background-color: #3dcf5a;
         color: white;
     }
 
@@ -635,7 +636,7 @@ h2{
         padding: 30px;
         border: none;
         border-top: none;
-        background-color: #8b8783;
+        background-color: #5aacd6;
         color: white;
     }
 
@@ -718,11 +719,11 @@ h2{
         margin-top: 25px;
         margin-left: 15px;
         background-color: #f5f5f5;
-        border-color: #0ea52b;
+        border-color: #54514d;
     }
     
     #disc_container a{
-        color: #0ea52b;
+        color: #54514d;
     }
     
     #banen_container{
@@ -735,11 +736,11 @@ h2{
         margin-top: 25px;
         margin-left: 15px;
         background-color: #f5f5f5;
-        border-color: #397ea1;
+        border-color: #0ea52b;
     }
     
     #banen_container a{
-        color: #397ea1;
+        color: #0ea52b;
     }
     
     #kfk_container{
@@ -752,11 +753,11 @@ h2{
         margin-top: 25px;
         margin-left: 15px;
         background-color: #f5f5f5;
-        border-color: #54514d;
+        border-color: #397ea1;
     }
     
     #kfk_container a{
-        color: #54514d;
+        color: #397ea1;
     }
 
 
