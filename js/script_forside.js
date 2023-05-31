@@ -32,6 +32,7 @@ window.onload = function (){
   menu_btn.classList.toggle('is-active');
   mobil_menu.classList.toggle('is-active');
 
+
 });
 
 }
