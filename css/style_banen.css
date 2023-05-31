@@ -323,7 +323,7 @@ p {
 }
 
 .textbox_s {
-  margin: 0x;
+  margin: 0;
   text-align: center;
   font-size: 18px;
   color: var(--secondary-color);
