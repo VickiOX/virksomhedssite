@@ -322,7 +322,9 @@ footer p{
     p, li {
       font-size: 20px;
   }
-
+  .link{
+    margin: 0%;
+  }
   .tekstboks1{
     margin-left: 4%;
   }
