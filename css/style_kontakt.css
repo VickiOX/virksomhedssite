@@ -95,7 +95,7 @@ a:hover.mail {
     margin: 12% 10%;
     background-color: var(--kontakt-color);
     padding:2%;
-    box-shadow: 10px 10px 2px 1px #ffb574;
+    box-shadow: 12px 12px 2px 1px #ffb574;
     border-radius: 10px;
 }
 .kontaktlogo {
@@ -258,7 +258,10 @@ a:hover.mail {
 @media(min-width:800px) {
     main {
         display: grid;
+        margin: auto;
+        max-width: 1200px;
     }
+   
 
 
     img#søren,
