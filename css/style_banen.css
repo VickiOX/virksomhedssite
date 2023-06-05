@@ -108,7 +108,7 @@ h2{
 
 .nav_link {
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 300;
   background: rgba(212, 210, 210, 0.254);
   box-shadow: 6px 6px 1px 1px var(--tertiary-color);
   padding: 10px;
